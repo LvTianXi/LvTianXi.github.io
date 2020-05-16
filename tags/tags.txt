@@ -1,0 +1,34 @@
+```html
+<a href="{% url "search_tag" tag=post.category %}">{{post.category}}</a>
+url(r'^tag(?P<tag>\w+)/$','article.views.search_tag',name='search_tag'),
+def search_tag(request,tag): 
+    try:
+        post_list = Article.objects.filter(category__iexact=tag) 
+        raise Http404
+  return render(request,'tag.html',{'post_list':post_list})
+  {% block content %}
+<div class="posts">
+    {% for post in post_list %}
+        <section class="post">
+            <header class="post-header">
+
+            <h2 class="post-title"><a href="{% url "detail" id=post.id %}">{{post.title}}</a></h2>
+    
+                <p class="post.meta">
+                   Time: <a class="post-author" href="#">{{post.date_tiem|date:"Y M d"}}
+                   </a><a class="post-category post-category-js" href="{% url "archives" tag=post.category %}">{{post.category|title}}</a>
+                </p>
+            </header>
+    
+                <div class="post-description">
+                     <p>
+                         {{post.content|custom_markdown}}
+                     </p>
+                </div>
+                <a class="pure-button" href="{% url "detail" id=post.id %}">阅读更多>>></a>
+    
+        </section>
+    {% endfor%}
+</div>
+{%endblock%}
+```

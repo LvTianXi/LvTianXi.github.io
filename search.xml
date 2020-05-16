@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo写作命令集合</title>
-    <url>/2019/12/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
+    <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
 <h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
@@ -104,8 +104,11 @@
 </tr>
 </tbody></table>
 ]]></content>
+      <categories>
+        <category>Markdown语法</category>
+      </categories>
       <tags>
-        <tag>Markdown语法学习</tag>
+        <tag>Markdown语法</tag>
       </tags>
   </entry>
   <entry>
@@ -116,7 +119,11 @@
 <p>&emsp;&emsp;<img src="http://i1.fuimg.com/718781/8cd1178afad11202.jpg" alt="Markdown"></p>
 <p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
 ]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
       <tags>
+        <tag>Java自学</tag>
         <tag>如何自学Java语言？(https://how2j.cn/?p=71477)</tag>
       </tags>
   </entry>
