@@ -107,7 +107,7 @@
     },
     algolia: {
       applicationID: '',
-      apiKey: '',
+      apiKey: '751e4026da33ea7cb320ded3d2a7bbd8',
       indexName: '',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
@@ -171,7 +171,6 @@
     </button>
   </div>
 </div>
-
 <nav class="site-nav">
   
 
@@ -180,7 +179,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/%E9%A6%96%E9%A1%B5/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -190,7 +189,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about/%20" rel="section">
+          <a href="/%E4%B8%AA%E4%BA%BA/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -199,18 +198,28 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/%20" rel="section">
+        <li class="menu-item menu-item-love">
+          <a href="/%E5%96%9C%E7%88%B1/%20%20" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
             
-            标签
+            love
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/%E5%BD%92%E6%A1%A3/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
           </a>
         </li>
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories/%20" rel="section">
+          <a href="/%E5%88%86%E7%B1%BB/%20categories/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -219,20 +228,58 @@
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+        <li class="menu-item menu-item-tags">
+          <a href="/%E6%A0%87%E7%AD%BE/%20tags/%20" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            归档
+            标签
           </a>
         </li>
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -306,6 +353,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -332,69 +389,19 @@
       
         
           
-            <h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
-<h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure>
-<h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure>
+          Markdown快速入门（typora）1.代码块：//代码块语法
+1.java代码:1system.out.println()
+2.shell代码:12//linux下spring项目的启动命令#java -jar blog start
 
-<h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
-
-<p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p>
-<h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure>
-
-<p>//引用语法</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>分割线1</p>
-<hr>
-<p>分割线2</p>
-<h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
-
-<p><img src="http://i2.tiimg.com/718781/6026608863f40c86.jpg" alt="小白驹"></p>
-<p><img src="C:%5CUsers%5C1%5CDesktop%5C%E7%A7%81%E4%BA%BA%E6%96%87%E6%A1%A3%5C%E5%9B%BE%E7%89%87%5CA648FE372652A428FE785370EBEC539C.jpg" alt="天少"></p>
-<h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p>
-<h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>无序列表</li>
-</ul>
-<ol>
-<li><p>首页 </p>
-</li>
-<li><p>分类</p>
-</li>
-<li><p>标签</p>
-</li>
-</ol>
-<h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table>
-<thead>
-<tr>
-<th align="center">成绩</th>
-<th>语文</th>
-<th>数学</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"></td>
-<td>99</td>
-<td>88</td>
-</tr>
-</tbody></table>
-
-          
+2.标题:1234567//标题语法# 一级标题## 二级
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -486,6 +493,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -512,12 +529,16 @@
       
         
           
-            <h4 id="写作缘由：【不想辜负袁隆平老爷爷】-https-baike-so-com-doc-5350627-5586083-html"><a href="#写作缘由：【不想辜负袁隆平老爷爷】-https-baike-so-com-doc-5350627-5586083-html" class="headerlink" title="写作缘由：【不想辜负袁隆平老爷爷】(https://baike.so.com/doc/5350627-5586083.html)"></a>写作缘由：【不想辜负袁隆平老爷爷】(<a href="https://baike.so.com/doc/5350627-5586083.html" target="_blank" rel="noopener">https://baike.so.com/doc/5350627-5586083.html</a>)</h4><p> &emsp;&emsp;<img src="http://i1.fuimg.com/718781/c9ce53325dd6543d.jpg" alt=""></p>
-<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p>&emsp;&emsp;<img src="http://i1.fuimg.com/718781/8cd1178afad11202.jpg" alt="Markdown"></p>
-<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
-
-          
+          写作缘由：【不想辜负袁隆平老爷爷】(https://baike.so.com/doc/5350627-5586083.html) &emsp;&emsp;
+&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -631,6 +652,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/12/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/12/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -657,36 +688,15 @@
       
         
           
-            <h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
-<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p>
-<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p>
-<p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p>
-<p><img src="" alt="image"></p>
-<h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p>
-<h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p>
-<h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p>
-<p>通过以下命令将草稿发布为正式文章：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
-<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
-<p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
-<hr>
-<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p>
-<ol>
-<li>将图片上床到图床上</li>
-<li>获取图片的连接</li>
-<li>插入到 Markdown 中</li>
-</ol>
-<blockquote>
-<p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p>
-</blockquote>
-
-          
+          Hexo写作命令大全前言作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/12/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -768,7 +778,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/%E5%BD%92%E6%A1%A3/%20%7C%7C%20archive">
               
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
@@ -1031,11 +1041,363 @@ src="//music.163.com/outchain/player?type=2&id=476592630&auto=0&height=66"></ifr
 
 
 
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'admjkYnaAjBsqg3wtRwdcOSs-gzGzoHsz',
+        appKey: 'XTCae7toULFka7iSVbdXqCkz',
+        placeholder: 'Just do it!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
 
 
   
 
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
 
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
 
 
 
