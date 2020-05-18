@@ -33,7 +33,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hexo命令</category>
       </categories>
       <tags>
         <tag>hexo常用命令</tag>
@@ -114,16 +114,23 @@
   <entry>
     <title>Zack的第一个博客!</title>
     <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h4 id="写作缘由：【不想辜负袁隆平老爷爷】-https-baike-so-com-doc-5350627-5586083-html"><a href="#写作缘由：【不想辜负袁隆平老爷爷】-https-baike-so-com-doc-5350627-5586083-html" class="headerlink" title="写作缘由：【不想辜负袁隆平老爷爷】(https://baike.so.com/doc/5350627-5586083.html)"></a>写作缘由：【不想辜负袁隆平老爷爷】(<a href="https://baike.so.com/doc/5350627-5586083.html" target="_blank" rel="noopener">https://baike.so.com/doc/5350627-5586083.html</a>)</h4><p> &emsp;&emsp;<img src="http://i1.fuimg.com/718781/c9ce53325dd6543d.jpg" alt=""></p>
+    <content><![CDATA[<hr>
+<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
+<p>奥利给！链接：  </p>
+<blockquote>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
+</blockquote>
+<hr>
+<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
+<p> &emsp;&emsp;<img src="http://i1.fuimg.com/718781/c9ce53325dd6543d.jpg" alt="白夜行"></p>
 <p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p>&emsp;&emsp;<img src="http://i1.fuimg.com/718781/8cd1178afad11202.jpg" alt="Markdown"></p>
+<p> &emsp;&emsp;<img src="http://i1.fuimg.com/718781/8cd1178afad11202.jpg" alt="时生"></p>
 <p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
 ]]></content>
       <categories>
-        <category>java</category>
+        <category>java自学</category>
       </categories>
       <tags>
-        <tag>Java自学</tag>
         <tag>如何自学Java语言？(https://how2j.cn/?p=71477)</tag>
       </tags>
   </entry>
