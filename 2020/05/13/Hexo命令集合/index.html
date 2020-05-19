@@ -12,6 +12,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -27,8 +34,7 @@
 
 
 
-
-
+<link rel="stylesheet" href="/css/tag-bubble.css">
 
 
 
@@ -82,11 +88,11 @@
 <meta name="description" content="Hexo写作命令大全前言作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。 简单介绍在博客目录下执行如下命令新建一篇文章 1$ hexo new [layout] &amp;l">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo写作命令集合">
-<meta property="og:url" content="http://yoursite.com/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/index.html">
+<meta property="og:url" content="https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/index.html">
 <meta property="og:site_name" content="Zack&#39;s Blog">
 <meta property="og:description" content="Hexo写作命令大全前言作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。 简单介绍在博客目录下执行如下命令新建一篇文章 1$ hexo new [layout] &amp;l">
 <meta property="article:published_time" content="2020-05-13T08:27:54.000Z">
-<meta property="article:modified_time" content="2020-05-19T02:39:21.985Z">
+<meta property="article:modified_time" content="2020-05-19T08:18:08.002Z">
 <meta property="article:author" content="小白驹">
 <meta property="article:tag" content="hexo常用命令">
 <meta name="twitter:card" content="summary">
@@ -109,7 +115,7 @@
     },
     algolia: {
       applicationID: '',
-      apiKey: '751e4026da33ea7cb320ded3d2a7bbd8',
+      apiKey: '',
       indexName: '',
       hits: "",
       labels: ""
@@ -119,7 +125,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2020/05/13/Hexo命令集合/"/>
+  <link rel="canonical" href="https://LvTianXi.github.io/2020/05/13/Hexo命令集合/"/>
 
 
 
@@ -134,6 +140,8 @@
 
 
 
+
+   <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 <meta name="generator" content="Hexo 4.2.1"></head>
 
@@ -182,8 +190,6 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
-            
             首页
           </a>
         </li>
@@ -191,8 +197,6 @@
         
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             关于
           </a>
@@ -202,8 +206,6 @@
         <li class="menu-item menu-item-爱好">
           <a href="/love/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
-            
             爱好
           </a>
         </li>
@@ -211,8 +213,6 @@
         
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             归档
           </a>
@@ -222,8 +222,6 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
-            
             分类
           </a>
         </li>
@@ -232,9 +230,15 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
-            
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-腾讯公益404">
+          <a href="/404.html" rel="section">
+            
+            腾讯公益404
           </a>
         </li>
       
@@ -244,8 +248,6 @@
           
             <a href="javascript:;" class="popup-trigger">
           
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
             搜索
           </a>
@@ -305,7 +307,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/">
+    <link itemprop="mainEntityOfPage" href="https://LvTianXi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="小白驹">
@@ -384,9 +386,51 @@
 
           
           
+             <span id="/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/" class="leancloud_visitors" data-flag-title="Hexo写作命令集合">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+              663 字
+               </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2 分钟
+                </span>
+              
+            </div>
           
 
           
@@ -437,7 +481,49 @@
     
     
     
+	<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">--------------------------<strong>本文结束</strong><i class="fa fa-paw"></i><strong>感谢您的阅读</strong>--------------------------</div>
+    
+</div>
+  
+ </div>
+<div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/">Hexo写作命令集合</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 小白驹 的个人博客">小白驹</a></p>
+  <p><span>发布时间:</span>2020年05月13日 - 16:05</p>
+  <p><span>最后更新:</span>2020年05月19日 - 16:05</p>
+  <p><span>原始链接:</span><a href="/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/" title="Hexo写作命令集合">https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+    });
+    });  
+</script>
 
+      
+</div>
     
       <div>
         <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
@@ -485,7 +571,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" rel="tag"># hexo常用命令</a>
+            <a href="/tags/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" rel="tag"><i class="fa fa-tag"></i> hexo常用命令</a>
           
         </div>
       
@@ -844,6 +930,28 @@ var jiathis_config={
 
           
           
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐阅读
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://how2j.cn/" title="Java" target="_blank">Java</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.csdn.net/" title="CSDN" target="_blank">CSDN</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.douban.com/note/716709947/" title="东野圭吾书全集" target="_blank">东野圭吾书全集</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
 <br>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" weidth=330 height=86
 src="//music.163.com/outchain/player?type=2&id=476592630&auto=0&height=66"></iframe>
@@ -882,17 +990,23 @@ src="//music.163.com/outchain/player?type=2&id=476592630&auto=0&height=66"></ifr
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">小白驹</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">全站总字数为&#58;</span>
+    
+    <span title="全站总字数为">1.2k</span>
+  
 </div>
-
-
-
 
 <script>
 var _hmt = _hmt || [];
@@ -904,9 +1018,13 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-
-
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
 
 
 
@@ -920,6 +1038,26 @@ var _hmt = _hmt || [];
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
 
 
 
@@ -941,6 +1079,11 @@ var _hmt = _hmt || [];
     
 
   </div>
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
 
   
 
@@ -1087,7 +1230,7 @@ var _hmt = _hmt || [];
         notify: false,
         appId: 'admjkYnaAjBsqg3wtRwdcOSs-gzGzoHsz',
         appKey: 'XTCae7toULFka7iSVbdXqCkz',
-        placeholder: 'Just do it!',
+        placeholder: '记得留下你宝贵的评论哦！',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
@@ -1422,10 +1565,117 @@ var _hmt = _hmt || [];
   
 
   
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("aGoafU3iaKeGxDmPS5SBkrNg-gzGzoHsz", "4DWyb9rilQyWcRLR54SSTNI7");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
   
+
+  
   
 
   
@@ -1434,5 +1684,5 @@ var _hmt = _hmt || [];
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":"wanko","bottom":-30,"avatar":"http://i2.tiimg.com/718781/6026608863f40c86.jpg","log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
