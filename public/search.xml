@@ -1,200 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Zack的第一个博客!</title>
-    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
-<p>&emsp;奥利给！链接：  </p>
-<blockquote>
-<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
-</blockquote>
-<hr>
-<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
-<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
-<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
-<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Markdown语法学习</title>
+      <link href="/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p><h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure><h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure><h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure><p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p><h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure><p>//引用语法</p><blockquote><p>作者：小白驹</p><blockquote><p>作者：小白驹</p><blockquote><p>作者：小白驹</p></blockquote></blockquote></blockquote><h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure><hr><p>分割线1</p><hr><p>分割线2</p><h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure><p><img src="http://i2.tiimg.com/718781/6026608863f40c86.jpg" alt="小白驹"></p><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p><h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure><p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p><h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure><ul><li>无序列表</li></ul><ol><li><p>首页 </p></li><li><p>分类</p></li><li><p>标签</p></li></ol><h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table><thead><tr><th align="center">成绩</th><th>语文</th><th>数学</th></tr></thead><tbody><tr><td align="center"></td><td></td><td></td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>java自学</category>
+          
+          <category> Markdown语法 </category>
+          
       </categories>
-      <tags>
-        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown语法学习</title>
-    <url>/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
-<h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure>
-<h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
-
-<p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p>
-<h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure>
-
-<p>//引用语法</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>分割线1</p>
-<hr>
-<p>分割线2</p>
-<h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
-
-<p><img src="http://i2.tiimg.com/718781/6026608863f40c86.jpg" alt="小白驹"></p>
-<p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p>
-<h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p>
-<h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>无序列表</li>
-</ul>
-<ol>
-<li><p>首页 </p>
-</li>
-<li><p>分类</p>
-</li>
-<li><p>标签</p>
-</li>
-</ol>
-<h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table>
-<thead>
-<tr>
-<th align="center">成绩</th>
-<th>语文</th>
-<th>数学</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Markdown语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo写作命令集合</title>
+      <link href="/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/"/>
+      <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure><p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p><h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p><p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p><h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p><h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p><h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p><p>通过以下命令将草稿发布为正式文章：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure><hr><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p><h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p><p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p><hr><h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p><ol><li>将图片上床到图床上</li><li>获取图片的连接</li><li>插入到 Markdown 中</li></ol><blockquote><p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>Markdown语法</category>
+          
+          <category> hexo命令 </category>
+          
       </categories>
-      <tags>
-        <tag>Markdown语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo写作命令集合</title>
-    <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
-<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p>
-<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p>
-<p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p>
-<h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p>
-<h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p>
-<h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p>
-<p>通过以下命令将草稿发布为正式文章：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
-<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
-<p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
-<hr>
-<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p>
-<ol>
-<li>将图片上床到图床上</li>
-<li>获取图片的连接</li>
-<li>插入到 Markdown 中</li>
-</ol>
-<blockquote>
-<p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo常用命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Zack的第一个博客!</title>
+      <link href="/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr><p>&emsp;奥利给！链接：  </p><blockquote><p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p></blockquote><hr><h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr><p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p><p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p><p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p><p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>]]></content>
+      
+      
       <categories>
-        <category>hexo命令</category>
+          
+          <category> java自学 </category>
+          
       </categories>
-      <tags>
-        <tag>hexo常用命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人信息</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/my.jpg" alt="小白"></p>
-<hr>
-<p>姓名：吕天喜        &emsp;&emsp;&emsp;应聘职位：Java开发工程师；软件设计师；<br>性别：男         &emsp;&emsp; &emsp;&emsp;     出生年月：1999.01.20      &emsp;&emsp;       民族：汉族                   &emsp;&emsp; 政治面貌：共青团员<br>就读大学：<a href="https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E6%96%87%E7%90%86%E5%AD%A6%E9%99%A2/285503?fr=aladdin" target="_blank" rel="noopener">湖南文理学院</a>     &emsp;&emsp;     &emsp;    <a href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B/3558682?fr=aladdin" target="_blank" rel="noopener">网络工程</a>专业 ： 2017届                       &emsp;&emsp;   学校科种：本科院校<br>联系方式：15280823762       &emsp;&emsp;    微信：LTX15280823762   &emsp;&emsp;     电子邮件：<a href="mailto:1827351106@qq.com">1827351106@qq.com</a> </p>
-<hr>
-<h1 id="掌握技能"><a href="#掌握技能" class="headerlink" title="掌握技能"></a>掌握技能</h1><hr>
-<p>了解<em>Java</em> (<a href="https://how2j.cn/" target="_blank" rel="noopener">https://how2j.cn/</a>) 的 <em>JavaSE</em> 的基本语法；<br>了解数据结构，操作系统基本原理；<br>了解网络工程师的基本知识；<br>了解Office办公软件的基本使用；</p>
-<hr>
-<h1 id="大学经历"><a href="#大学经历" class="headerlink" title="大学经历"></a>大学经历</h1><hr>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>   &emsp;&emsp;  我叫吕天喜，家居福建龙岩；2021年毕业于<a href="https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E6%96%87%E7%90%86%E5%AD%A6%E9%99%A2/285503?fr=aladdin" target="_blank" rel="noopener">湖南文理学院</a>，全日制二本院校；所学专业：<a href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B/3558682?fr=aladdin" target="_blank" rel="noopener">网络工程</a>,专业排名：19/71；大学中担任过职务有<a href="https://baike.baidu.com/item/%E5%AD%A6%E7%94%9F%E4%BC%9A/406211?fr=aladdin" target="_blank" rel="noopener">校学生会</a>的宿舍栋长“管理1200”人的日常宿舍生活情况；院学生会的<a href="http://www.yiban.cn/" target="_blank" rel="noopener">易班</a>班长；社团的办公室部员；班级的宿管委员等；获得的荣誉证书有<a href="https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B/5370897?fr=aladdin" target="_blank" rel="noopener">职业生涯规划</a>三等奖，“院十佳干部”，校优秀志愿者，计算机三级考试等20多张荣誉证书；大学生涯，让我不止学会了“学无止境”的思想；还有结识了一些“雪中送炭”的益友；且还有“诲人不倦”的良师，更有“共同进步”的同学！</p>
-<hr>
-<h2 id="大学情况"><a href="#大学情况" class="headerlink" title="大学情况"></a>大学情况</h2><p>2017-2018    湖南文理学院   国际学院  网络工程专业<br>专业排名：  19/71<br>所获奖励和大学任职情况：<br>1：2017年11月1日：获得常德市大学生旅游协会办公室部员聘书:<br>2：2018年5月：获得“阳光晨跑”优秀团队；<br>3：2018年5月18日：获得入党积极分子结业证书；<br>4：2018年11月：获得湖南文理学院校自律会层长聘书；<br>5：2018年12月：获得湖南文理学院“最佳文明示范寝室”；<br>6：2018年11月：参加常德市马拉松志愿者活动被评为“优秀志愿者”；<br>7：2018年12月：获得“普通话”等级考试证书；<br>8：2019年5月：获得获得全国大学生环保知识竞赛优秀奖；<br>9：2019年5月9日：获得院级职业生涯规划大赛三等奖；<br>10：2019年6月：获得时政知识竞赛团队最佳团队奖；<br>11：2019年6月：获得时政知识竞赛团队二等奖；<br>12：2019年9月：获得湖南文理学院校自律会栋长聘书；<br>13：2019年9月：获得“学习积极分子”证书；<br>14：2019年12月：获得湖南文理学院校级“优秀志愿者”证书；<br>15:2019年12月：获得“优秀宿管干部”证书；<br>16：2019年11月：获得全国计算机三级“网络技术”良好证书；<br>17:2019年12月：获得创业SYB结业证书；<br>18：2019年12月：获得湖南省大学生防艾知识竞赛“优秀参赛选手”；<br>19：2019年12月：获得湖南文理学院“十佳干部”证书及奖杯；<br>20：2019年12月：获得湖南文理学院“学风标杆示范寝室”；</p>
-<hr>
-]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>个人爱好</title>
-    <url>/love/index.html</url>
-    <content><![CDATA[<hr>
-<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
-<hr>
-]]></content>
-  </entry>
-  <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/404.html</url>
-    <content><![CDATA[<!DOCTYPE HTML>
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="robots" content="all" />
-  <meta name="robots" content="index,follow"/>
-<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Zack's Blog" type="application/atom+xml">
-</head>
-<body>
-<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://LvTianXi.github.io" homePageName="回到我的主页"></script>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":"wanko","bottom":-30,"avatar":"http://i2.tiimg.com/718781/6026608863f40c86.jpg","log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
-</html>]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 如何自学Java语言？ (https://how2j.cn/?p=71477) </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title></title>
+      <link href="/404.html"/>
+      <url>/404.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE HTML><html><head>  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />  <meta name="robots" content="all" />  <meta name="robots" content="index,follow"/><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Zack's Blog" type="application/atom+xml"></head><body><script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://LvTianXi.github.io" homePageName="回到我的主页"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"live2d-widget-model-haruto"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>archives</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>home</title>
+      <link href="/home/index.html"/>
+      <url>/home/index.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人爱好</title>
+      <link href="/love/index.html"/>
+      <url>/love/index.html</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p><hr>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人信息</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<hr><p><img src="/images/my.jpg" alt="小白"></p><hr><p>姓名：吕天喜        &emsp;&emsp;&emsp;应聘职位：Java开发工程师；软件设计师；<br>性别：男         &emsp;&emsp; &emsp;&emsp;     出生年月：1999.01.20      &emsp;&emsp;       民族：汉族                   &emsp;&emsp; 政治面貌：共青团员<br>就读大学：<a href="https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E6%96%87%E7%90%86%E5%AD%A6%E9%99%A2/285503?fr=aladdin" target="_blank" rel="noopener">湖南文理学院</a>     &emsp;&emsp;     &emsp;    <a href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B/3558682?fr=aladdin" target="_blank" rel="noopener">网络工程</a>专业 ： 2017届                       &emsp;&emsp;   学校科种：本科院校<br>联系方式：15280823762       &emsp;&emsp;    微信：LTX15280823762   &emsp;&emsp;     电子邮件：<a href="mailto:1827351106@qq.com">1827351106@qq.com</a> </p><hr><h1 id="掌握技能"><a href="#掌握技能" class="headerlink" title="掌握技能"></a>掌握技能</h1><hr><p>了解<em>Java</em> (<a href="https://how2j.cn/" target="_blank" rel="noopener">https://how2j.cn/</a>) 的 <em>JavaSE</em> 的基本语法；<br>了解数据结构，操作系统基本原理；<br>了解网络工程师的基本知识；<br>了解Office办公软件的基本使用；</p><hr><h1 id="大学经历"><a href="#大学经历" class="headerlink" title="大学经历"></a>大学经历</h1><hr><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>   &emsp;&emsp;  我叫吕天喜，家居福建龙岩；2021年毕业于<a href="https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E6%96%87%E7%90%86%E5%AD%A6%E9%99%A2/285503?fr=aladdin" target="_blank" rel="noopener">湖南文理学院</a>，全日制二本院校；所学专业：<a href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B/3558682?fr=aladdin" target="_blank" rel="noopener">网络工程</a>,专业排名：19/71；大学中担任过职务有<a href="https://baike.baidu.com/item/%E5%AD%A6%E7%94%9F%E4%BC%9A/406211?fr=aladdin" target="_blank" rel="noopener">校学生会</a>的宿舍栋长“管理1200”人的日常宿舍生活情况；院学生会的<a href="http://www.yiban.cn/" target="_blank" rel="noopener">易班</a>班长；社团的办公室部员；班级的宿管委员等；获得的荣誉证书有<a href="https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B/5370897?fr=aladdin" target="_blank" rel="noopener">职业生涯规划</a>三等奖，“院十佳干部”，校优秀志愿者，计算机三级考试等20多张荣誉证书；大学生涯，让我不止学会了“学无止境”的思想；还有结识了一些“雪中送炭”的益友；且还有“诲人不倦”的良师，更有“共同进步”的同学！</p><hr><h2 id="大学情况"><a href="#大学情况" class="headerlink" title="大学情况"></a>大学情况</h2><p>2017-2018    湖南文理学院   国际学院  网络工程专业<br>专业排名：  19/71<br>所获奖励和大学任职情况：<br>1：2017年11月1日：获得常德市大学生旅游协会办公室部员聘书:<br>2：2018年5月：获得“阳光晨跑”优秀团队；<br>3：2018年5月18日：获得入党积极分子结业证书；<br>4：2018年11月：获得湖南文理学院校自律会层长聘书；<br>5：2018年12月：获得湖南文理学院“最佳文明示范寝室”；<br>6：2018年11月：参加常德市马拉松志愿者活动被评为“优秀志愿者”；<br>7：2018年12月：获得“普通话”等级考试证书；<br>8：2019年5月：获得获得全国大学生环保知识竞赛优秀奖；<br>9：2019年5月9日：获得院级职业生涯规划大赛三等奖；<br>10：2019年6月：获得时政知识竞赛团队最佳团队奖；<br>11：2019年6月：获得时政知识竞赛团队二等奖；<br>12：2019年9月：获得湖南文理学院校自律会栋长聘书；<br>13：2019年9月：获得“学习积极分子”证书；<br>14：2019年12月：获得湖南文理学院校级“优秀志愿者”证书；<br>15:2019年12月：获得“优秀宿管干部”证书；<br>16：2019年11月：获得全国计算机三级“网络技术”良好证书；<br>17:2019年12月：获得创业SYB结业证书；<br>18：2019年12月：获得湖南省大学生防艾知识竞赛“优秀参赛选手”；<br>19：2019年12月：获得湖南文理学院“十佳干部”证书及奖杯；<br>20：2019年12月：获得湖南文理学院“学风标杆示范寝室”；</p><hr>]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
