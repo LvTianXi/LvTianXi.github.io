@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>C#学生管理系统开发</title>
-    <url>/2020/05/21/C#%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="C-学生管理系统开发"><a href="#C-学生管理系统开发" class="headerlink" title="C#学生管理系统开发"></a>C#学生管理系统开发</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本次课程设计主要是利用<strong>VS 2017</strong>以及<strong>SQL 2012</strong>一起开发出一个<strong>学生信息管理系统</strong>用于管理学生的各种信息，包括成绩，所读学科等；大致分为<strong>5</strong>个部分；如下所示：</p>
+    <title>学生信息管理系统开发</title>
+    <url>/2020/05/21/C#/</url>
+    <content><![CDATA[<hr>
+<h1 id="C-学生管理系统开发"><a href="#C-学生管理系统开发" class="headerlink" title="C#学生管理系统开发"></a>C#学生管理系统开发</h1><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  本次课程设计主要是利用<strong>VS 2017</strong>以及<strong>SQL 2012</strong>一起开发出一个<strong>学生信息管理系统</strong>用于管理学生的各种信息，包括成绩，所读学科等；大致分为<strong>5</strong>个部分；如下所示：</p>
+<hr>
 <h3 id="第一部分：菜单制作"><a href="#第一部分：菜单制作" class="headerlink" title="第一部分：菜单制作"></a>第一部分：菜单制作</h3><h4 id="目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；"><a href="#目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；" class="headerlink" title="目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；"></a>目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；</h4><blockquote>
-<p>MenuStrip<br>ToolStrip<br>StatusStrip控件</p>
+<p>MenuStrip控件<br>ToolStrip控件<br>StatusStrip控件</p>
 </blockquote>
-<h4 id="窗口制作要求："><a href="#窗口制作要求：" class="headerlink" title="窗口制作要求："></a>窗口制作要求：</h4><h2 id=""><a href="#" class="headerlink" title=""></a><img src=".images/%E5%9B%BE%E7%89%871.png" alt="窗口"></h2>]]></content>
+<h4 id="窗口制作要求："><a href="#窗口制作要求：" class="headerlink" title="窗口制作要求："></a>窗口制作要求：</h4><p><img src="/images/11.png" alt="窗口菜单"></p>
+<h4 id="制作结果如下："><a href="#制作结果如下：" class="headerlink" title="制作结果如下："></a>制作结果如下：</h4><p><img src="/images/2.png" alt="窗口菜单"></p>
+<h4 id="窗口代码有："><a href="#窗口代码有：" class="headerlink" title="窗口代码有："></a>窗口代码有：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;</span><br><span class="line">    public partial class mainForm : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public mainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="本次实验要点："><a href="#本次实验要点：" class="headerlink" title="本次实验要点："></a>本次实验要点：</h4><p>   熟练使用<strong>MenuStrip,ToolStrip，StatusStrip</strong>控件的基本功能；以及如何添加窗口需要的控件等；再者就是如何更改窗口的一些配置；如窗口图标，背景，颜色，大小；还有菜单栏子目录的添加等操作；</p>
+<hr>
+<h3 id="第二部分：数据库的操作"><a href="#第二部分：数据库的操作" class="headerlink" title="第二部分：数据库的操作"></a>第二部分：数据库的操作</h3><h4 id="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会"><a href="#目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会" class="headerlink" title="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;"></a>目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;</h4><hr>
+<p><strong>本次实验出现过好几个问题，下面附带自己的解决方法：</strong></p>
+<h4 id="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"><a href="#第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误" class="headerlink" title="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"></a>第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误</h4><p><img src="/images/4.png" alt="问题图片"></p>
+<h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p><a href="https://www.cnblogs.com/bingdaocaihong/p/10694429.html" target="_blank" rel="noopener">解决方法请点击</a></p>
+<blockquote>
+<p>打开SQL server配置管理器也可以这样<br>（cmd命令行输入SQLServerManager11.msc）<br>cmd命令行打开方式：win+R键  </p>
+</blockquote>
+<p><strong>注明：</strong><br>有些人可能这个不知道如何打开<br><img src="/images/5.png" alt="问题图片"><br><strong>解决方法：</strong>请右键点击三角号后，你可能看不到如何选择，这时候你用键盘方向键“下键”去选择后，敲击“Enter”即可；</p>
+<hr>
+<h4 id="第二个：SQL和VS-2017连接数据库服务器不显示问题"><a href="#第二个：SQL和VS-2017连接数据库服务器不显示问题" class="headerlink" title="第二个：SQL和VS 2017连接数据库服务器不显示问题"></a>第二个：SQL和VS 2017连接数据库服务器不显示问题</h4><p>问题图片：<br><img src="/images/6.png" alt="问题图片"><br><strong>解决方法 1：</strong>手动在这里填入：这个字符串(localdb)\v11.0<br><strong>解决方法 2：</strong>手动在这里输入： 你的SQL 服务器名称<br><img src="/images/7.png" alt="问题图片"></p>
+<hr>
+<h3 id="第三个：SQL的登录数据库的密码一定要记得！"><a href="#第三个：SQL的登录数据库的密码一定要记得！" class="headerlink" title="第三个：SQL的登录数据库的密码一定要记得！"></a>第三个：SQL的登录数据库的密码一定要记得！</h3><p>初始账号：sa<br>初始密码：别设置太难的；（痛苦经历）</p>
+<hr>
+<h2 id="本次实验主要SQL-2012建表代码如下"><a href="#本次实验主要SQL-2012建表代码如下" class="headerlink" title="本次实验主要SQL 2012建表代码如下"></a>本次实验主要SQL 2012建表代码如下</h2><p><strong>新建的一个stuser表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> stuser(</span><br><span class="line"> <span class="keyword">name</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> <span class="keyword">password</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> stuser(<span class="keyword">name</span>,<span class="keyword">password</span>)<span class="keyword">values</span>(<span class="string">'ltx'</span>,<span class="string">'123456'</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>新建的一个student表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> student(</span><br><span class="line"> sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>  <span class="keyword">identity</span>(<span class="number">1</span>,<span class="number">1</span>) primary <span class="keyword">key</span>,</span><br><span class="line"> sname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> sex <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> birthday datetime <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> dept <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> major <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> hobby <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="string">'小白'</span>,<span class="string">'男'</span>,<span class="string">'1999-01-20'</span>,<span class="string">'国际学院'</span>,<span class="string">'网络工程'</span>,<span class="string">'听歌，读书'</span>)</span><br><span class="line"><span class="keyword">set</span> IDENTITY_INSERT student <span class="keyword">on</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sno,sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="number">2</span>,<span class="string">'天少'</span>,<span class="string">'男'</span>,<span class="string">'1999-11-20'</span>,<span class="string">'外国语学院'</span>,<span class="string">'信息管理'</span>,<span class="string">'爬山，看电影'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> student</span><br></pre></td></tr></table></figure>
+<p><strong>新建的一个course表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> stuManage</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> course(</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span> primary <span class="keyword">key</span>,</span><br><span class="line">cname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cclass <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">reqcourse <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">credit <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">precredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">expcredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1001'</span>,<span class="string">'C++'</span>,<span class="string">'专业必修'</span>,<span class="string">'是'</span>,<span class="string">'4'</span>,<span class="string">'3'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1002'</span>,<span class="string">'网络编程'</span>,<span class="string">'专业选修'</span>,<span class="string">'是'</span>,<span class="string">'3'</span>,<span class="string">'2'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> score</span><br></pre></td></tr></table></figure>
+<p><strong>新建的一个score表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> score(</span><br><span class="line">sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">score <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"><span class="keyword">constraint</span>[PK_score] primary <span class="keyword">key</span>([sno],[cid])</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">1</span>,<span class="number">1001</span>,<span class="number">87</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">2</span>,<span class="number">1001</span>,<span class="number">97</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="结果图片："><a href="#结果图片：" class="headerlink" title="结果图片："></a>结果图片：</h4><blockquote>
+<p><img src="/images/8.png" alt="结果图片"><br><img src="/images/9.png" alt="结果图片">   </p>
+</blockquote>
+<hr>
+<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;“和VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
+<hr>
+<h3 id="第三部分：数据库操作"><a href="#第三部分：数据库操作" class="headerlink" title="第三部分：数据库操作"></a>第三部分：数据库操作</h3><h4 id="目的：连接数据库，实现菜单的用户登录功能"><a href="#目的：连接数据库，实现菜单的用户登录功能" class="headerlink" title="目的：连接数据库，实现菜单的用户登录功能"></a>目的：连接数据库，实现菜单的用户登录功能</h4><p><strong>要求图片:</strong><br><img src="/images/10.png" alt="结果图片"> </p>
+<hr>
+]]></content>
       <categories>
         <category>C#</category>
       </categories>
@@ -51,29 +88,6 @@
       </categories>
       <tags>
         <tag>hexo常用命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zack的第一个博客!</title>
-    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
-<p>&emsp;奥利给！链接：  </p>
-<blockquote>
-<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
-</blockquote>
-<hr>
-<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
-<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
-<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
-<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
       </tags>
   </entry>
   <entry>
@@ -149,6 +163,55 @@
       </tags>
   </entry>
   <entry>
+    <title>SQL数据库</title>
+    <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<hr>
+<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a>SQL基本语法</h1><hr>
+<h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
+<h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="4：查询语句"><a href="#4：查询语句" class="headerlink" title="4：查询语句"></a>4：查询语句</h5><h6 id="查询单条记录的所有字段"><a href="#查询单条记录的所有字段" class="headerlink" title="查询单条记录的所有字段"></a>查询单条记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<h6 id="查询所有记录的所有字段"><a href="#查询所有记录的所有字段" class="headerlink" title="查询所有记录的所有字段"></a>查询所有记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> [<span class="keyword">column</span>] <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong><br><em>order by column asc代表：以column字段，升序排列。desc为降序</em></p>
+<h6 id="查询给定偏移量的记录的所有字段"><a href="#查询给定偏移量的记录的所有字段" class="headerlink" title="查询给定偏移量的记录的所有字段"></a>查询给定偏移量的记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">limit</span> [<span class="keyword">offset</span>], [<span class="keyword">limit</span>]</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong></p>
+<blockquote>
+<p>1.offset指定从哪个索引开始，默认从0开始<br>2.limit指定查询几条记录</p>
+</blockquote>
+<h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<hr>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL数据库杂货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zack的第一个博客!</title>
+    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<hr>
+<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
+<p>&emsp;奥利给！链接：  </p>
+<blockquote>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
+</blockquote>
+<hr>
+<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
+<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
+<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
+<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
+<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
+      </tags>
+  </entry>
+  <entry>
     <title></title>
     <url>/404.html</url>
     <content><![CDATA[<!DOCTYPE HTML>
@@ -184,9 +247,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>个人爱好</title>
+    <url>/love/index.html</url>
+    <content><![CDATA[<hr>
+<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
+<hr>
+]]></content>
   </entry>
   <entry>
     <title>分类</title>
@@ -194,10 +260,9 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>标签</title>
@@ -205,11 +270,9 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>个人爱好</title>
-    <url>/love/index.html</url>
-    <content><![CDATA[<hr>
-<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
-<hr>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
 ]]></content>
   </entry>
 </search>
