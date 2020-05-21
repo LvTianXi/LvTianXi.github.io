@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-05-20T01:13:33.139Z</updated>
+  <updated>2020-05-21T08:49:59.198Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C#学生管理系统开发</title>
+    <link href="https://lvtianxi.github.io/2020/05/21/C#%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://lvtianxi.github.io/2020/05/21/C#%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</id>
+    <published>2020-05-21T08:47:53.000Z</published>
+    <updated>2020-05-21T08:49:59.198Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;C-学生管理系统开发&quot;&gt;&lt;a href=&quot;#C-学生管理系统开发&quot; class=&quot;headerlink&quot; title=&quot;C#学生管理系统开发&quot;&gt;&lt;/a&gt;C#学生管理系统开发&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C#" scheme="https://LvTianXi.github.io/categories/C/"/>
+    
+    
+      <category term="C#学生管理系统开发" scheme="https://LvTianXi.github.io/tags/C-%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown语法学习</title>
     <link href="https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     <id>https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-05-14T16:00:00.000Z</published>
-    <updated>2020-05-20T01:13:33.139Z</updated>
+    <updated>2020-05-21T08:15:37.984Z</updated>
     
     <summary type="html">
     
@@ -36,7 +63,7 @@
     </summary>
     
     
-      <category term="Markdown语法" scheme="https://LvTianXi.github.io/categories/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <category term="Markdown" scheme="https://LvTianXi.github.io/categories/Markdown/"/>
     
     
       <category term="Markdown语法" scheme="https://LvTianXi.github.io/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
@@ -48,7 +75,7 @@
     <link href="https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/"/>
     <id>https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</id>
     <published>2020-05-13T08:27:54.000Z</published>
-    <updated>2020-05-19T08:18:08.002Z</updated>
+    <updated>2020-05-21T08:16:18.985Z</updated>
     
     <summary type="html">
     
@@ -63,7 +90,7 @@
     </summary>
     
     
-      <category term="hexo命令" scheme="https://LvTianXi.github.io/categories/hexo%E5%91%BD%E4%BB%A4/"/>
+      <category term="hexo" scheme="https://LvTianXi.github.io/categories/hexo/"/>
     
     
       <category term="hexo常用命令" scheme="https://LvTianXi.github.io/tags/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
@@ -75,7 +102,7 @@
     <link href="https://lvtianxi.github.io/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://lvtianxi.github.io/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-05-11T16:00:00.000Z</published>
-    <updated>2020-05-20T01:04:50.148Z</updated>
+    <updated>2020-05-21T08:16:08.791Z</updated>
     
     <summary type="html">
     
@@ -94,7 +121,7 @@
     </summary>
     
     
-      <category term="java自学" scheme="https://LvTianXi.github.io/categories/java%E8%87%AA%E5%AD%A6/"/>
+      <category term="java" scheme="https://LvTianXi.github.io/categories/java/"/>
     
     
       <category term="如何自学Java语言？ (https://how2j.cn/?p=71477)" scheme="https://LvTianXi.github.io/tags/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AD%A6Java%E8%AF%AD%E8%A8%80%EF%BC%9F-https-how2j-cn-p-71477/"/>
