@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>学生信息管理系统开发</title>
-    <url>/2020/05/21/C#/</url>
+    <title>学生信息管理系统开发（1）</title>
+    <url>/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</url>
     <content><![CDATA[<hr>
 <h1 id="C-学生管理系统开发"><a href="#C-学生管理系统开发" class="headerlink" title="C#学生管理系统开发"></a>C#学生管理系统开发</h1><hr>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  本次课程设计主要是利用<strong>VS 2017</strong>以及<strong>SQL 2012</strong>一起开发出一个<strong>学生信息管理系统</strong>用于管理学生的各种信息，包括成绩，所读学科等；大致分为<strong>5</strong>个部分；如下所示：</p>
@@ -13,34 +13,8 @@
 <h4 id="窗口制作要求："><a href="#窗口制作要求：" class="headerlink" title="窗口制作要求："></a>窗口制作要求：</h4><p><img src="/images/11.png" alt="窗口菜单"></p>
 <h4 id="制作结果如下："><a href="#制作结果如下：" class="headerlink" title="制作结果如下："></a>制作结果如下：</h4><p><img src="/images/2.png" alt="窗口菜单"></p>
 <h4 id="窗口代码有："><a href="#窗口代码有：" class="headerlink" title="窗口代码有："></a>窗口代码有：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;</span><br><span class="line">    public partial class mainForm : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public mainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <h4 id="本次实验要点："><a href="#本次实验要点：" class="headerlink" title="本次实验要点："></a>本次实验要点：</h4><p>   熟练使用<strong>MenuStrip,ToolStrip，StatusStrip</strong>控件的基本功能；以及如何添加窗口需要的控件等；再者就是如何更改窗口的一些配置；如窗口图标，背景，颜色，大小；还有菜单栏子目录的添加等操作；</p>
-<hr>
-<h3 id="第二部分：数据库的操作"><a href="#第二部分：数据库的操作" class="headerlink" title="第二部分：数据库的操作"></a>第二部分：数据库的操作</h3><h4 id="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会"><a href="#目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会" class="headerlink" title="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;"></a>目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;</h4><hr>
-<p><strong>本次实验出现过好几个问题，下面附带自己的解决方法：</strong></p>
-<h4 id="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"><a href="#第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误" class="headerlink" title="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"></a>第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误</h4><p><img src="/images/4.png" alt="问题图片"></p>
-<h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p><a href="https://www.cnblogs.com/bingdaocaihong/p/10694429.html" target="_blank" rel="noopener">解决方法请点击</a></p>
-<blockquote>
-<p>打开SQL server配置管理器也可以这样<br>（cmd命令行输入SQLServerManager11.msc）<br>cmd命令行打开方式：win+R键  </p>
-</blockquote>
-<p><strong>注明：</strong><br>有些人可能这个不知道如何打开<br><img src="/images/5.png" alt="问题图片"><br><strong>解决方法：</strong>请右键点击三角号后，你可能看不到如何选择，这时候你用键盘方向键“下键”去选择后，敲击“Enter”即可；</p>
-<hr>
-<h4 id="第二个：SQL和VS-2017连接数据库服务器不显示问题"><a href="#第二个：SQL和VS-2017连接数据库服务器不显示问题" class="headerlink" title="第二个：SQL和VS 2017连接数据库服务器不显示问题"></a>第二个：SQL和VS 2017连接数据库服务器不显示问题</h4><p>问题图片：<br><img src="/images/6.png" alt="问题图片"><br><strong>解决方法 1：</strong>手动在这里填入：这个字符串(localdb)\v11.0<br><strong>解决方法 2：</strong>手动在这里输入： 你的SQL 服务器名称<br><img src="/images/7.png" alt="问题图片"></p>
-<hr>
-<h3 id="第三个：SQL的登录数据库的密码一定要记得！"><a href="#第三个：SQL的登录数据库的密码一定要记得！" class="headerlink" title="第三个：SQL的登录数据库的密码一定要记得！"></a>第三个：SQL的登录数据库的密码一定要记得！</h3><p>初始账号：sa<br>初始密码：别设置太难的；（痛苦经历）</p>
-<hr>
-<h2 id="本次实验主要SQL-2012建表代码如下"><a href="#本次实验主要SQL-2012建表代码如下" class="headerlink" title="本次实验主要SQL 2012建表代码如下"></a>本次实验主要SQL 2012建表代码如下</h2><p><strong>新建的一个stuser表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> stuser(</span><br><span class="line"> <span class="keyword">name</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> <span class="keyword">password</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> stuser(<span class="keyword">name</span>,<span class="keyword">password</span>)<span class="keyword">values</span>(<span class="string">'ltx'</span>,<span class="string">'123456'</span>)</span><br></pre></td></tr></table></figure>
-<p><strong>新建的一个student表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> student(</span><br><span class="line"> sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>  <span class="keyword">identity</span>(<span class="number">1</span>,<span class="number">1</span>) primary <span class="keyword">key</span>,</span><br><span class="line"> sname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> sex <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> birthday datetime <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> dept <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> major <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> hobby <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="string">'小白'</span>,<span class="string">'男'</span>,<span class="string">'1999-01-20'</span>,<span class="string">'国际学院'</span>,<span class="string">'网络工程'</span>,<span class="string">'听歌，读书'</span>)</span><br><span class="line"><span class="keyword">set</span> IDENTITY_INSERT student <span class="keyword">on</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sno,sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="number">2</span>,<span class="string">'天少'</span>,<span class="string">'男'</span>,<span class="string">'1999-11-20'</span>,<span class="string">'外国语学院'</span>,<span class="string">'信息管理'</span>,<span class="string">'爬山，看电影'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> student</span><br></pre></td></tr></table></figure>
-<p><strong>新建的一个course表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> stuManage</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> course(</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span> primary <span class="keyword">key</span>,</span><br><span class="line">cname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cclass <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">reqcourse <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">credit <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">precredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">expcredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1001'</span>,<span class="string">'C++'</span>,<span class="string">'专业必修'</span>,<span class="string">'是'</span>,<span class="string">'4'</span>,<span class="string">'3'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1002'</span>,<span class="string">'网络编程'</span>,<span class="string">'专业选修'</span>,<span class="string">'是'</span>,<span class="string">'3'</span>,<span class="string">'2'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> score</span><br></pre></td></tr></table></figure>
-<p><strong>新建的一个score表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> score(</span><br><span class="line">sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">score <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"><span class="keyword">constraint</span>[PK_score] primary <span class="keyword">key</span>([sno],[cid])</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">1</span>,<span class="number">1001</span>,<span class="number">87</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">2</span>,<span class="number">1001</span>,<span class="number">97</span>)</span><br></pre></td></tr></table></figure>
-<h4 id="结果图片："><a href="#结果图片：" class="headerlink" title="结果图片："></a>结果图片：</h4><blockquote>
-<p><img src="/images/8.png" alt="结果图片"><br><img src="/images/9.png" alt="结果图片">   </p>
-</blockquote>
-<hr>
-<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;“和VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
 <hr>
 <h3 id="第三部分：数据库操作"><a href="#第三部分：数据库操作" class="headerlink" title="第三部分：数据库操作"></a>第三部分：数据库操作</h3><h4 id="目的：连接数据库，实现菜单的用户登录功能"><a href="#目的：连接数据库，实现菜单的用户登录功能" class="headerlink" title="目的：连接数据库，实现菜单的用户登录功能"></a>目的：连接数据库，实现菜单的用户登录功能</h4><p><strong>要求图片:</strong><br><img src="/images/10.png" alt="结果图片"> </p>
 <hr>
@@ -53,41 +27,52 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo写作命令集合</title>
-    <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
-<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p>
-<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p>
-<p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p>
-<h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p>
-<h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p>
-<h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p>
-<p>通过以下命令将草稿发布为正式文章：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
-<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
-<p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
-<hr>
-<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p>
-<ol>
-<li>将图片上床到图床上</li>
-<li>获取图片的连接</li>
-<li>插入到 Markdown 中</li>
-</ol>
+    <title>SQL数据库</title>
+    <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<hr>
+<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a>SQL基本语法</h1><hr>
+<h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
+<h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="4：查询语句"><a href="#4：查询语句" class="headerlink" title="4：查询语句"></a>4：查询语句</h5><h6 id="查询单条记录的所有字段"><a href="#查询单条记录的所有字段" class="headerlink" title="查询单条记录的所有字段"></a>查询单条记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<h6 id="查询所有记录的所有字段"><a href="#查询所有记录的所有字段" class="headerlink" title="查询所有记录的所有字段"></a>查询所有记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> [<span class="keyword">column</span>] <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong><br><em>order by column asc代表：以column字段，升序排列。desc为降序</em></p>
+<h6 id="查询给定偏移量的记录的所有字段"><a href="#查询给定偏移量的记录的所有字段" class="headerlink" title="查询给定偏移量的记录的所有字段"></a>查询给定偏移量的记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">limit</span> [<span class="keyword">offset</span>], [<span class="keyword">limit</span>]</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong></p>
 <blockquote>
-<p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p>
+<p>1.offset指定从哪个索引开始，默认从0开始<br>2.limit指定查询几条记录</p>
 </blockquote>
+<h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<hr>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>SQL</category>
       </categories>
       <tags>
-        <tag>hexo常用命令</tag>
+        <tag>SQL数据库杂货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zack的第一个博客!</title>
+    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<hr>
+<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
+<p>&emsp;奥利给！链接：  </p>
+<blockquote>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
+</blockquote>
+<hr>
+<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
+<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
+<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
+<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
+<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
       </tags>
   </entry>
   <entry>
@@ -163,52 +148,41 @@
       </tags>
   </entry>
   <entry>
-    <title>SQL数据库</title>
-    <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<hr>
-<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a>SQL基本语法</h1><hr>
-<h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
-<h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
-<h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
-<h5 id="4：查询语句"><a href="#4：查询语句" class="headerlink" title="4：查询语句"></a>4：查询语句</h5><h6 id="查询单条记录的所有字段"><a href="#查询单条记录的所有字段" class="headerlink" title="查询单条记录的所有字段"></a>查询单条记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
-<h6 id="查询所有记录的所有字段"><a href="#查询所有记录的所有字段" class="headerlink" title="查询所有记录的所有字段"></a>查询所有记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> [<span class="keyword">column</span>] <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
-<p><strong>注意：</strong><br><em>order by column asc代表：以column字段，升序排列。desc为降序</em></p>
-<h6 id="查询给定偏移量的记录的所有字段"><a href="#查询给定偏移量的记录的所有字段" class="headerlink" title="查询给定偏移量的记录的所有字段"></a>查询给定偏移量的记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">limit</span> [<span class="keyword">offset</span>], [<span class="keyword">limit</span>]</span><br></pre></td></tr></table></figure>
-<p><strong>注意</strong></p>
-<blockquote>
-<p>1.offset指定从哪个索引开始，默认从0开始<br>2.limit指定查询几条记录</p>
-</blockquote>
-<h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+    <title>Hexo写作命令集合</title>
+    <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
+<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p>
+<p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p>
+<h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p>
+<h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p>
+<h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p>
+<p>通过以下命令将草稿发布为正式文章：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure>
+
 <hr>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
+<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
+<p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
+<hr>
+<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p>
+<ol>
+<li>将图片上床到图床上</li>
+<li>获取图片的连接</li>
+<li>插入到 Markdown 中</li>
+</ol>
+<blockquote>
+<p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>SQL</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>SQL数据库杂货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zack的第一个博客!</title>
-    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
-<p>&emsp;奥利给！链接：  </p>
-<blockquote>
-<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
-</blockquote>
-<hr>
-<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
-<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
-<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
-<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
+        <tag>hexo常用命令</tag>
       </tags>
   </entry>
   <entry>
@@ -229,6 +203,11 @@
 </html>]]></content>
   </entry>
   <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>个人信息</title>
     <url>/about/index.html</url>
     <content><![CDATA[<hr>
@@ -247,22 +226,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>个人爱好</title>
-    <url>/love/index.html</url>
-    <content><![CDATA[<hr>
-<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
-<hr>
-]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>archives</title>
     <url>/archives/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
   </entry>
   <entry>
     <title>标签</title>
@@ -270,9 +242,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+    <title>个人爱好</title>
+    <url>/love/index.html</url>
+    <content><![CDATA[<hr>
+<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
+<hr>
 ]]></content>
   </entry>
 </search>

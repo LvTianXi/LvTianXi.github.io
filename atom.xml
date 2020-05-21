@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-05-21T10:50:59.911Z</updated>
+  <updated>2020-05-21T12:28:00.148Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -17,40 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SQL数据库</title>
-    <link href="https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    <id>https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
-    <published>2020-05-21T10:38:26.000Z</published>
-    <updated>2020-05-21T10:50:59.911Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;h1 id=&quot;SQL基本语法&quot;&gt;&lt;a href=&quot;#SQL基本语法&quot; class=&quot;headerlink&quot; title=&quot;SQL基本语法&quot;&gt;&lt;/a&gt;SQL基本语法&lt;/h1&gt;&lt;hr&gt;
-&lt;h3 id=&quot;简答的一些增删改查语句&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="SQL" scheme="https://LvTianXi.github.io/categories/SQL/"/>
-    
-    
-      <category term="SQL数据库杂货" scheme="https://LvTianXi.github.io/tags/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%82%E8%B4%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学生信息管理系统开发</title>
-    <link href="https://lvtianxi.github.io/2020/05/21/C#/"/>
-    <id>https://lvtianxi.github.io/2020/05/21/C#/</id>
-    <published>2020-05-21T09:07:38.000Z</published>
-    <updated>2020-05-21T10:37:17.028Z</updated>
+    <title>学生信息管理系统开发（1）</title>
+    <link href="https://lvtianxi.github.io/2020/05/21/C-%E8%AF%BE%E8%AE%BE/"/>
+    <id>https://lvtianxi.github.io/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</id>
+    <published>2020-05-21T12:19:35.000Z</published>
+    <updated>2020-05-21T12:28:00.148Z</updated>
     
     <summary type="html">
     
@@ -71,6 +42,35 @@
     
     
       <category term="C#学生管理系统开发" scheme="https://LvTianXi.github.io/tags/C-%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQL数据库</title>
+    <link href="https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2020-05-21T10:38:26.000Z</published>
+    <updated>2020-05-21T12:12:10.085Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;SQL基本语法&quot;&gt;&lt;a href=&quot;#SQL基本语法&quot; class=&quot;headerlink&quot; title=&quot;SQL基本语法&quot;&gt;&lt;/a&gt;SQL基本语法&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;简答的一些增删改查语句&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="SQL" scheme="https://LvTianXi.github.io/categories/SQL/"/>
+    
+    
+      <category term="SQL数据库杂货" scheme="https://LvTianXi.github.io/tags/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%82%E8%B4%A7/"/>
     
   </entry>
   
