@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>电脑小技巧</title>
+    <url>/2020/05/23/skill/</url>
+    <content><![CDATA[<hr>
+<h2 id="CMD命令行常用命令"><a href="#CMD命令行常用命令" class="headerlink" title="CMD命令行常用命令"></a>CMD命令行常用命令</h2><hr>
+<h4 id="打开CMD命令界面："><a href="#打开CMD命令界面：" class="headerlink" title="打开CMD命令界面："></a><strong>打开CMD命令界面：</strong></h4><blockquote>
+<p>1:开始－&gt;运行－&gt;键入cmd或command(在命令行里可以看到系统版本、文件系统版本)<br>2:win+R键；输入cmd即可；</p>
+</blockquote>
+<h5 id="CMD命令如下："><a href="#CMD命令如下：" class="headerlink" title="CMD命令如下："></a>CMD命令如下：</h5><blockquote>
+<p>1、 gpedit.msc—–组策略。<br>2.、sndrec32——-录音机。<br>3、Nslookup——-IP地址侦测器 ，是一个 监测网络中 DNS 服务器是否能正确实现域名解析的命令行工具。 它在 Windows NT/2000/XP 中均可使用 , 但在 Windows 98 中却没有集成这一个工具。　<br>4、explorer——-打开资源管理器。<br>5、logoff———注销命令。<br>6、shutdown——-60秒倒计时关机命令。<br>7、lusrmgr.msc—-本机用户和组。<br>8、services.msc—本地服务设置。<br>9、oobe/msoobe /a—-检查XP是否激活。<br>10、 notepad——–打开记事本。<br>11、cleanmgr——-垃圾整理。<br>12、net start messenger—-开始信使服务。<br>13、 compmgmt.msc—计算机管理。<br>14、net stop messenger—–停止信使服务。<br>15、conf———–启动netmeeting。<br>16、dvdplay——–DVD播放器。<br>17、charmap——–启动字符映射表。<br>18、 diskmgmt.msc—磁盘管理实用程序。<br>19、calc———–启动计算器。<br>20、 dfrg.msc——-磁盘碎片整理程序。<br>21、chkdsk.exe—–Chkdsk磁盘检查。<br>22、devmgmt.msc— 设备管理器。<br>23、regsvr32 /u *.dll—-停止dll文件运行。<br>24、 drwtsn32—— 系统医生。<br>25.、rononce -p—-15秒关机。<br>26、dxdiag———检查DirectX信息。<br>27、 regedt32——-注册表编辑器。<br>28、 Msconfig.exe—系统配置实用程序。<br>29、 rsop.msc——-组策略结果集。<br>30、mem.exe——–显示内存使用情况。<br>31、regedit.exe—-注册表。<br>32、winchat——–XP自带局域网聊天。<br>33、progman——–程序管理器。<br>34、winmsd———系统信息。<br>35、perfmon.msc—-计算机性能监测程序。<br>36、 winver———检查Windows版本。<br>37、sfc /scannow—–扫描错误并复原。<br>38、taskmgr—–任务管理器（2000/xp/2003）。<br>39、wmimgmt.msc—-打开windows管理体系结构(WMI)。<br>40、wupdmgr——–windows更新程序。<br>41、wscript——–windows脚本宿主设置。<br>42、write———-写字板。<br>43、 wiaacmgr——-扫描仪和照相机向导。<br>44、 winchat——–XP自带局域网聊天。<br>45、 mspaint——–画图板。<br>46、 mstsc———-远程桌面连接。<br>47、magnify——–放大镜实用程序.<br>48.、mmc————打开控制台。<br>49、mobsync——–同步命令。<br>50、iexpress——-木马捆绑工具，系统自带。<br>51、fsmgmt.msc—–共享文件夹管理器。<br>52、utilman——–辅助工具管理器。<br>53、 dcomcnfg——-打开系统组件服务。<br>54、 ddeshare——-打开DDE共享设置。<br>55、 osk————打开屏幕键盘。<br>56、 ntbackup——-系统备份和还原。<br>57、 ntmsmgr、msc—-移动存储管理器。<br>58、 ntmsoprq、msc—移动存储管理员操作请求。<br>59、 netstat -an—-(TC)命令检查接口。<br>60、 syncapp——–创建一个公文包。<br>61、 sysedit——–系统配置编辑器。<br>62、 sigverif——-文件签名验证程序。<br>63、 ciadv、msc——索引服务程序。<br>64、 shrpubw——–创建共享文件夹。<br>65、 secpol、msc—–本地安全策略。<br>66、 syskey———系统加密，一旦加密就不能解开，保护windows xp系统的双重密码。<br>67、 services、msc—本地服务设置。<br>68、 Sndvol32——-音量控制程序。<br>69、 sfc、exe——–系统文件检查器。<br>70、 sfc /scannow—windows文件保护。<br>71、 ciadv、msc——索引服务程序。<br>72、 tourstart——xp简介（安装完成后出现的漫游xp程序）。<br>73、 taskmgr——–任务管理器。<br>74、 eventvwr——-事件查看器。<br>75、 eudcedit——-造字程序。<br>76、 compmgmt、msc—计算机管理。<br>77、 packager——-对象包装程序。<br>78、 perfmon、msc—-计算机性能监测程序。<br>79、 charmap——–启动字符映射表。<br>80、 cliconfg——-SQL SERVER 客户端网络实用程序。<br>81、 Clipbrd——–剪贴板查看器。<br>82、 conf———–启动netmeeting。<br>83、 certmgr、msc—-证书管理实用程序。<br>84、 regsvr32 /u *、dll—-停止dll文件运行。<br>85、 regsvr32 /u zipfldr、dll——取消ZIP支持。<br>86、 cmd、exe——–CMD命令提示符。</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>CMD</category>
+      </categories>
+      <tags>
+        <tag>CMD命令行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>学生信息管理系统开发</title>
     <url>/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</url>
     <content><![CDATA[<hr>
@@ -45,7 +65,7 @@
 <p><img src="/images/8.png" alt="结果图片"><br><img src="/images/9.png" alt="结果图片">   </p>
 </blockquote>
 <hr>
-<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;“和VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
+<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;和“VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
 <hr>
 <h3 id="第三部分：数据库操作"><a href="#第三部分：数据库操作" class="headerlink" title="第三部分：数据库操作"></a>第三部分：数据库操作</h3><h4 id="目的：连接数据库，实现菜单的用户登录功能"><a href="#目的：连接数据库，实现菜单的用户登录功能" class="headerlink" title="目的：连接数据库，实现菜单的用户登录功能"></a>目的：连接数据库，实现菜单的用户登录功能</h4><p> <strong>要求图片:</strong><br> <img src="/images/10.png" alt="结果图片"> </p>
 <hr>
@@ -55,44 +75,6 @@
       </categories>
       <tags>
         <tag>C#学生管理系统开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo写作命令集合</title>
-    <url>/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<h1 id="Hexo写作命令大全"><a href="#Hexo写作命令大全" class="headerlink" title="Hexo写作命令大全"></a>Hexo写作命令大全</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名前端程序员当然要有自己的博客存，以前用 markdown 写一些自己的学习笔记，但是写完之后都不会去回顾，因为存放在电脑上回顾起来比较麻烦。所以最近在着手自己的博客项目，但是对于 hexo 的一些写作命令并不是很熟悉，所以在网上找到了一些牛人前辈写的博客，下面开始练练手吧。</p>
-<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>在博客目录下执行如下命令新建一篇文章</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new [layout] &lt;title&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果未指定文章的布局（layout），则默认使用 <code>post</code> 布局，生成的文档存放于 <code>source\_posts\</code> 目录下，打开后使用 Markdown 语法进行写作，保存后刷新浏览器即可看到文章。</p>
-<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>布局可以理解为新建文档时的一个模块，基于布局生成的文档将会继承布局的样式。</p>
-<p>Hexo 默认有三种布局：<code>post</code>、 <code>page</code> 和 <code>draft</code>，用户可以在 <code>scaffolds</code> 目录下新建文档来自定义布局格式，还可以修改站点配置文件中的 <code>default_layout</code>参数来指定生成文档时的默认布局。</p>
-<h3 id="文章（post）"><a href="#文章（post）" class="headerlink" title="文章（post）"></a>文章（post）</h3><p>基于 <code>post</code> 布局生成的文档存在于 <code>source\_posts\</code> 目录下，该目录下的文档会作为博客正文显示在网站中。</p>
-<h3 id="页面（page）"><a href="#页面（page）" class="headerlink" title="页面（page）"></a>页面（page）</h3><p><code>page</code> 布局用于生成类似 <strong>首页</strong> 和 <strong>归档</strong> 这样的页面。</p>
-<h3 id="草稿（draft）"><a href="#草稿（draft）" class="headerlink" title="草稿（draft）"></a>草稿（draft）</h3><p><code>draft</code> 布局用于创建草稿，生成的文档存在于 source_drafts\ 目录中，默认配置下将不会把该目录下的文档渲染到网站中。</p>
-<p>通过以下命令将草稿发布为正式文章：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
-<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
-<p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
-<hr>
-<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>Markdown 并不会保存插入的图片资源本身，只是记录了获取资源的链接。<br>在 Markdown 中插入一张图片的步骤：</p>
-<ol>
-<li>将图片上床到图床上</li>
-<li>获取图片的连接</li>
-<li>插入到 Markdown 中</li>
-</ol>
-<blockquote>
-<p>引用连接:<br><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-writing-skills.html</a><br><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002632530</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo常用命令</tag>
       </tags>
   </entry>
   <entry>
@@ -119,29 +101,6 @@
       </categories>
       <tags>
         <tag>SQL数据库杂货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zack的第一个博客!</title>
-    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
-<p>&emsp;奥利给！链接：  </p>
-<blockquote>
-<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
-</blockquote>
-<hr>
-<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
-<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
-<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
-<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
-<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
       </tags>
   </entry>
   <entry>
@@ -176,7 +135,7 @@
 <p>分割线2</p>
 <h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
 
-<p><img src="http://i2.tiimg.com/718781/6026608863f40c86.jpg" alt="小白驹"></p>
+<p>![小白驹](<a href="http://i2.tiimg.com/718781/6026608863f40c86.jpg" target="_blank" rel="noopener">http://i2.tiimg.com/718781/6026608863f40c86.jpg</a></p>
 <p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p>
 <h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
 
@@ -217,6 +176,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Zack的第一个博客!</title>
+    <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<hr>
+<h2 id="Java自学"><a href="#Java自学" class="headerlink" title="Java自学"></a>Java自学</h2><hr>
+<p>&emsp;奥利给！链接：  </p>
+<blockquote>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">Java</a></p>
+</blockquote>
+<hr>
+<h2 id="东野圭吾"><a href="#东野圭吾" class="headerlink" title="东野圭吾"></a>东野圭吾</h2><hr>
+<p> &emsp;&emsp; <img src="http://img3.winxuancdn.com/5599/1201535599_5_4.jpg?1501038235144" alt="白夜行" title="白夜行"></p>
+<p>&emsp;&emsp;一天中，太阳会升起，同时还会落下。人生也一样，有白天和黑夜，只是不会像太阳那样，有定时的日出和日落。有些人一辈子都活在太阳的照耀下，也有些人不得不一直活在漆黑的深夜里。人害怕的，就是本来一直存在的太阳落下不再升起，也就是非常害怕原本照在身上的光芒 消失。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>   《 <a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank" rel="noopener">白夜行</a>》</p>
+<p> &emsp;&emsp; <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2115669065,3903431611&fm=26&gp=0.jpg" alt="时生" title="时生"></p>
+<p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
+      </tags>
+  </entry>
+  <entry>
     <title></title>
     <url>/404.html</url>
     <content><![CDATA[<!DOCTYPE HTML>
@@ -232,35 +214,6 @@
 <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://LvTianXi.github.io" homePageName="回到我的主页"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>]]></content>
-  </entry>
-  <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>个人爱好</title>
-    <url>/love/index.html</url>
-    <content><![CDATA[<hr>
-<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
-<hr>
-]]></content>
   </entry>
   <entry>
     <title>个人信息</title>
@@ -279,5 +232,34 @@
 <h2 id="大学情况"><a href="#大学情况" class="headerlink" title="大学情况"></a>大学情况</h2><p>2017-2018    湖南文理学院   国际学院  网络工程专业<br>专业排名：  19/71<br>所获奖励和大学任职情况：<br>1：2017年11月1日：获得常德市大学生旅游协会办公室部员聘书:<br>2：2018年5月：获得“阳光晨跑”优秀团队；<br>3：2018年5月18日：获得入党积极分子结业证书；<br>4：2018年11月：获得湖南文理学院校自律会层长聘书；<br>5：2018年12月：获得湖南文理学院“最佳文明示范寝室”；<br>6：2018年11月：参加常德市马拉松志愿者活动被评为“优秀志愿者”；<br>7：2018年12月：获得“普通话”等级考试证书；<br>8：2019年5月：获得获得全国大学生环保知识竞赛优秀奖；<br>9：2019年5月9日：获得院级职业生涯规划大赛三等奖；<br>10：2019年6月：获得时政知识竞赛团队最佳团队奖；<br>11：2019年6月：获得时政知识竞赛团队二等奖；<br>12：2019年9月：获得湖南文理学院校自律会栋长聘书；<br>13：2019年9月：获得“学习积极分子”证书；<br>14：2019年12月：获得湖南文理学院校级“优秀志愿者”证书；<br>15:2019年12月：获得“优秀宿管干部”证书；<br>16：2019年11月：获得全国计算机三级“网络技术”良好证书；<br>17:2019年12月：获得创业SYB结业证书；<br>18：2019年12月：获得湖南省大学生防艾知识竞赛“优秀参赛选手”；<br>19：2019年12月：获得湖南文理学院“十佳干部”证书及奖杯；<br>20：2019年12月：获得湖南文理学院“学风标杆示范寝室”；</p>
 <hr>
 ]]></content>
+  </entry>
+  <entry>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>个人爱好</title>
+    <url>/love/index.html</url>
+    <content><![CDATA[<hr>
+<h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

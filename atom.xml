@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-05-22T01:43:29.012Z</updated>
+  <updated>2020-05-23T01:43:43.322Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>电脑小技巧</title>
+    <link href="https://lvtianxi.github.io/2020/05/23/skill/"/>
+    <id>https://lvtianxi.github.io/2020/05/23/skill/</id>
+    <published>2020-05-23T01:07:44.000Z</published>
+    <updated>2020-05-23T01:43:43.322Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h2 id=&quot;CMD命令行常用命令&quot;&gt;&lt;a href=&quot;#CMD命令行常用命令&quot; class=&quot;headerlink&quot; title=&quot;CMD命令行常用命令&quot;&gt;&lt;/a&gt;CMD命令行常用命令&lt;/h2&gt;&lt;hr&gt;
+&lt;h4 id=&quot;打开CMD命令界面：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CMD" scheme="https://LvTianXi.github.io/categories/CMD/"/>
+    
+    
+      <category term="CMD命令行" scheme="https://LvTianXi.github.io/tags/CMD%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>学生信息管理系统开发</title>
     <link href="https://lvtianxi.github.io/2020/05/21/C-%E8%AF%BE%E8%AE%BE/"/>
     <id>https://lvtianxi.github.io/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</id>
     <published>2020-05-21T12:19:35.000Z</published>
-    <updated>2020-05-22T01:43:29.012Z</updated>
+    <updated>2020-05-23T01:09:31.498Z</updated>
     
     <summary type="html">
     
@@ -50,7 +79,7 @@
     <link href="https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <id>https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
     <published>2020-05-21T10:38:26.000Z</published>
-    <updated>2020-05-21T12:12:10.085Z</updated>
+    <updated>2020-05-23T01:09:22.057Z</updated>
     
     <summary type="html">
     
@@ -79,7 +108,7 @@
     <link href="https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     <id>https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-05-14T16:00:00.000Z</published>
-    <updated>2020-05-21T08:15:37.984Z</updated>
+    <updated>2020-05-23T01:20:16.960Z</updated>
     
     <summary type="html">
     
@@ -102,38 +131,11 @@
   </entry>
   
   <entry>
-    <title>Hexo写作命令集合</title>
-    <link href="https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/"/>
-    <id>https://lvtianxi.github.io/2020/05/13/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</id>
-    <published>2020-05-13T08:27:54.000Z</published>
-    <updated>2020-05-21T08:16:18.985Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Hexo写作命令大全&quot;&gt;&lt;a href=&quot;#Hexo写作命令大全&quot; class=&quot;headerlink&quot; title=&quot;Hexo写作命令大全&quot;&gt;&lt;/a&gt;Hexo写作命令大全&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://LvTianXi.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo常用命令" scheme="https://LvTianXi.github.io/tags/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Zack的第一个博客!</title>
     <link href="https://lvtianxi.github.io/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://lvtianxi.github.io/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-05-11T16:00:00.000Z</published>
-    <updated>2020-05-21T08:16:08.791Z</updated>
+    <updated>2020-05-23T01:09:03.153Z</updated>
     
     <summary type="html">
     
