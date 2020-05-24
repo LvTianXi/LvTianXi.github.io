@@ -1,6 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>生活小技巧</title>
+    <url>/2020/05/24/life/</url>
+    <content><![CDATA[<hr>
+<h1 id="Life"><a href="#Life" class="headerlink" title="Life"></a>Life</h1><hr>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>生活小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo的next主题个性小技巧</title>
+    <url>/2020/05/24/hexo/</url>
+    <content><![CDATA[<hr>
+<h1 id="Hexo的Next主题美化"><a href="#Hexo的Next主题美化" class="headerlink" title="Hexo的Next主题美化"></a>Hexo的Next主题美化</h1><hr>
+<h4 id="添加RSS-Really-Simple-Syndication"><a href="#添加RSS-Really-Simple-Syndication" class="headerlink" title="添加RSS(Really Simple Syndication)"></a>添加RSS(Really Simple Syndication)</h4><h5 id="结果图片如下："><a href="#结果图片如下：" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%871.png" alt="RSS"></p>
+<hr>
+<p><strong>具体实现方法：</strong></p>
+<blockquote>
+<p>第一步：<br>切换到你的blog文件夹下；例如我的：Boke/blog;(即根目录下)<br><img src="/images/%E5%9B%BE%E7%89%872.png" alt="路径"><br>在这里输入CMD，即可打开命令行；<br>然后安装 Hexo 插件：(这个插件会放在node_modules这个文件夹里)</p>
+</blockquote>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第二步:<br>打开站点配置文件；<br><img src="/images/%E5%9B%BE%E7%89%873.png" alt="路径"><br>在里面的末尾添加如下代码：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># Extensions</span><br><span class="line"># Plugins: http://hexo.io/plugins/</span><br><span class="line">plugins: hexo-generate-feed</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第三步：<br>然后打开next主题文件夹里面的_config.yml,在里面配置如下；</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># Set rss to false to disable feed link.</span><br><span class="line"># Leave rss as empty to use site's feed link.</span><br><span class="line"># Set rss to specific value if you have burned your feed already.</span><br><span class="line">rss: /atom.xml</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第四步：<br>CMD窗口配置运行<br>依次输入<br>hexo g<br>hexo s 即可本地浏览，无误即可<br>hexo d 进行发布博客</p>
+</blockquote>
+<hr>
+<h4 id="实现鼠标点击出现桃心效果"><a href="#实现鼠标点击出现桃心效果" class="headerlink" title="实现鼠标点击出现桃心效果"></a>实现鼠标点击出现桃心效果</h4><h5 id="结果图片如下：-1"><a href="#结果图片如下：-1" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%874.png" alt="红心效果"></p>
+<hr>
+<p><strong>具体实现方法：</strong></p>
+<blockquote>
+<p>第一步：创建js文件<br>在/themes/next/source/js/src下新建文件 clicklove.js ，把该代码复制粘贴到 clicklove.js 文件</p>
+</blockquote>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">!function(e,t,a)&#123;function n()&#123;c(".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"),o(),r()&#125;function r()&#123;for(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText="left:"+d[e].x+"px;top:"+d[e].y+"px;opacity:"+d[e].alpha+";transform:scale("+d[e].scale+","+d[e].scale+") rotate(45deg);background:"+d[e].color+";z-index:99999");requestAnimationFrame(r)&#125;function o()&#123;var t="function"==typeof e.onclick&amp;&amp;e.onclick;e.onclick=function(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;function i(e)&#123;var a=t.createElement("div");a.className="heart",d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;function c(e)&#123;var a=t.createElement("style");a.type="text/css";try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName("head")[0].appendChild(a)&#125;function s()&#123;return"rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"&#125;var d=[];e.requestAnimationFrame=function()&#123;return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e)&#123;setTimeout(e,1e3/60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第二步：修改_layout.swig文件<br>在\themes\next\layout_layout.swig文件末尾添加：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 页面点击小红心 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/clicklove.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>第三步：<br>CMD窗口配置运行<br>依次输入<br>hexo g<br>hexo s 即可本地浏览，无误即可<br>hexo d 进行发布博客</p>
+</blockquote>
+<hr>
+<h4 id="鼠标点击爆炸效果"><a href="#鼠标点击爆炸效果" class="headerlink" title="鼠标点击爆炸效果"></a>鼠标点击爆炸效果</h4><h5 id="结果图片如下：-2"><a href="#结果图片如下：-2" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%8710.png" alt="效果图片"></p>
+<hr>
+<p><strong>具体实现方法：</strong></p>
+<blockquote>
+<p>跟那个红心是差不多的，首先在themes/next/source/js/src里面建一个叫fireworks.js的文件，<br>随即添加代码如下：</p>
+</blockquote>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">"use strict";function updateCoords(e)&#123;pointerX=(e.clientX||e.touches[0].clientX)-canvasEl.getBoundingClientRect().left,pointerY=e.clientY||e.touches[0].clientY-canvasEl.getBoundingClientRect().top&#125;function setParticuleDirection(e)&#123;var t=anime.random(0,360)*Math.PI/180,a=anime.random(50,180),n=[-1,1][anime.random(0,1)]*a;return&#123;x:e.x+n*Math.cos(t),y:e.y+n*Math.sin(t)&#125;&#125;function createParticule(e,t)&#123;var a=&#123;&#125;;return a.x=e,a.y=t,a.color=colors[anime.random(0,colors.length-1)],a.radius=anime.random(16,32),a.endPos=setParticuleDirection(a),a.draw=function()&#123;ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,0,2*Math.PI,!0),ctx.fillStyle=a.color,ctx.fill()&#125;,a&#125;function createCircle(e,t)&#123;var a=&#123;&#125;;return a.x=e,a.y=t,a.color="#F00",a.radius=0.1,a.alpha=0.5,a.lineWidth=6,a.draw=function()&#123;ctx.globalAlpha=a.alpha,ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,0,2*Math.PI,!0),ctx.lineWidth=a.lineWidth,ctx.strokeStyle=a.color,ctx.stroke(),ctx.globalAlpha=1&#125;,a&#125;function renderParticule(e)&#123;for(var t=0;t&lt;e.animatables.length;t++)&#123;e.animatables[t].target.draw()&#125;&#125;function animateParticules(e,t)&#123;for(var a=createCircle(e,t),n=[],i=0;i&lt;numberOfParticules;i++)&#123;n.push(createParticule(e,t))&#125;anime.timeline().add(&#123;targets:n,x:function(e)&#123;return e.endPos.x&#125;,y:function(e)&#123;return e.endPos.y&#125;,radius:0.1,duration:anime.random(1200,1800),easing:"easeOutExpo",update:renderParticule&#125;).add(&#123;targets:a,radius:anime.random(80,160),lineWidth:0,alpha:&#123;value:0,easing:"linear",duration:anime.random(600,800)&#125;,duration:anime.random(1200,1800),easing:"easeOutExpo",update:renderParticule,offset:0&#125;)&#125;function debounce(e,t)&#123;var a;return function()&#123;var n=this,i=arguments;clearTimeout(a),a=setTimeout(function()&#123;e.apply(n,i)&#125;,t)&#125;&#125;var canvasEl=document.querySelector(".fireworks");if(canvasEl)&#123;var ctx=canvasEl.getContext("2d"),numberOfParticules=30,pointerX=0,pointerY=0,tap="mousedown",colors=["#FF1461","#18FF92","#5A87FF","#FBF38C"],setCanvasSize=debounce(function()&#123;canvasEl.width=2*window.innerWidth,canvasEl.height=2*window.innerHeight,canvasEl.style.width=window.innerWidth+"px",canvasEl.style.height=window.innerHeight+"px",canvasEl.getContext("2d").scale(2,2)&#125;,500),render=anime(&#123;duration:1/0,update:function()&#123;ctx.clearRect(0,0,canvasEl.width,canvasEl.height)&#125;&#125;);document.addEventListener(tap,function(e)&#123;"sidebar"!==e.target.id&amp;&amp;"toggle-sidebar"!==e.target.id&amp;&amp;"A"!==e.target.nodeName&amp;&amp;"IMG"!==e.target.nodeName&amp;&amp;(render.play(),updateCoords(e),animateParticules(pointerX,pointerY))&#125;,!1),setCanvasSize(),window.addEventListener("resize",setCanvasSize,!1)&#125;"use strict";function updateCoords(e)&#123;pointerX=(e.clientX||e.touches[0].clientX)-canvasEl.getBoundingClientRect().left,pointerY=e.clientY||e.touches[0].clientY-canvasEl.getBoundingClientRect().top&#125;function setParticuleDirection(e)&#123;var t=anime.random(0,360)*Math.PI/180,a=anime.random(50,180),n=[-1,1][anime.random(0,1)]*a;return&#123;x:e.x+n*Math.cos(t),y:e.y+n*Math.sin(t)&#125;&#125;function createParticule(e,t)&#123;var a=&#123;&#125;;return a.x=e,a.y=t,a.color=colors[anime.random(0,colors.length-1)],a.radius=anime.random(16,32),a.endPos=setParticuleDirection(a),a.draw=function()&#123;ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,0,2*Math.PI,!0),ctx.fillStyle=a.color,ctx.fill()&#125;,a&#125;function createCircle(e,t)&#123;var a=&#123;&#125;;return a.x=e,a.y=t,a.color="#F00",a.radius=0.1,a.alpha=0.5,a.lineWidth=6,a.draw=function()&#123;ctx.globalAlpha=a.alpha,ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,0,2*Math.PI,!0),ctx.lineWidth=a.lineWidth,ctx.strokeStyle=a.color,ctx.stroke(),ctx.globalAlpha=1&#125;,a&#125;function renderParticule(e)&#123;for(var t=0;t&lt;e.animatables.length;t++)&#123;e.animatables[t].target.draw()&#125;&#125;function animateParticules(e,t)&#123;for(var a=createCircle(e,t),n=[],i=0;i&lt;numberOfParticules;i++)&#123;n.push(createParticule(e,t))&#125;anime.timeline().add(&#123;targets:n,x:function(e)&#123;return e.endPos.x&#125;,y:function(e)&#123;return e.endPos.y&#125;,radius:0.1,duration:anime.random(1200,1800),easing:"easeOutExpo",update:renderParticule&#125;).add(&#123;targets:a,radius:anime.random(80,160),lineWidth:0,alpha:&#123;value:0,easing:"linear",duration:anime.random(600,800)&#125;,duration:anime.random(1200,1800),easing:"easeOutExpo",update:renderParticule,offset:0&#125;)&#125;function debounce(e,t)&#123;var a;return function()&#123;var n=this,i=arguments;clearTimeout(a),a=setTimeout(function()&#123;e.apply(n,i)&#125;,t)&#125;&#125;var canvasEl=document.querySelector(".fireworks");if(canvasEl)&#123;var ctx=canvasEl.getContext("2d"),numberOfParticules=30,pointerX=0,pointerY=0,tap="mousedown",colors=["#FF1461","#18FF92","#5A87FF","#FBF38C"],setCanvasSize=debounce(function()&#123;canvasEl.width=2*window.innerWidth,canvasEl.height=2*window.innerHeight,canvasEl.style.width=window.innerWidth+"px",canvasEl.style.height=window.innerHeight+"px",canvasEl.getContext("2d").scale(2,2)&#125;,500),render=anime(&#123;duration:1/0,update:function()&#123;ctx.clearRect(0,0,canvasEl.width,canvasEl.height)&#125;&#125;);document.addEventListener(tap,function(e)&#123;"sidebar"!==e.target.id&amp;&amp;"toggle-sidebar"!==e.target.id&amp;&amp;"A"!==e.target.nodeName&amp;&amp;"IMG"!==e.target.nodeName&amp;&amp;(render.play(),updateCoords(e),animateParticules(pointerX,pointerY))&#125;,!1),setCanvasSize(),window.addEventListener("resize",setCanvasSize,!1)&#125;;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>打开themes/next/layout/_layout.swig,在<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>上面写下如下代码：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.fireworks %&#125;</span><br><span class="line">   <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">class</span>=<span class="string">"fireworks"</span> <span class="attr">style</span>=<span class="string">"position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"</span> &gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span> </span><br><span class="line">   <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/animejs/2.2.0/anime.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line">   <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/fireworks.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>打开主题配置文件，在里面最后写下代码：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># Fireworks</span><br><span class="line">fireworks: true</span><br></pre></td></tr></table></figure>
+<hr>
+<h4 id="修改作者头像并旋转"><a href="#修改作者头像并旋转" class="headerlink" title="修改作者头像并旋转"></a>修改作者头像并旋转</h4><h5 id="结果图片如下：-3"><a href="#结果图片如下：-3" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%875.png" alt="头像旋转"></p>
+<hr>
+<p><strong>具体实现方法：</strong><br><strong>打开文件夹：</strong><br>themes\next\source\css_common\components\sidebar\sidebar-author.styl</p>
+<blockquote>
+<p>添加如下代码：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">.site-author-image &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  padding: $site-author-image-padding;</span><br><span class="line">  max-width: $site-author-image-width;</span><br><span class="line">  height: $site-author-image-height;</span><br><span class="line">  border: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line"></span><br><span class="line">  /* 头像圆形 */</span><br><span class="line">  border-radius: 80px;</span><br><span class="line">  -webkit-border-radius: 80px;</span><br><span class="line">  -moz-border-radius: 80px;</span><br><span class="line">  box-shadow: inset 0 -1px 0 #333sf;</span><br><span class="line"></span><br><span class="line">  /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 </span><br><span class="line">    (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/</span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">  /* 鼠标经过头像旋转360度 */</span><br><span class="line">  -webkit-transition: -webkit-transform 1.0s ease-out;</span><br><span class="line">  -moz-transition: -moz-transform 1.0s ease-out;</span><br><span class="line">  transition: transform 1.0s ease-out;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">img:hover &#123;</span><br><span class="line">  /* 鼠标经过停止头像旋转 </span><br><span class="line">  -webkit-animation-play-state:paused;</span><br><span class="line">  animation-play-state:paused;*/</span><br><span class="line"></span><br><span class="line">  /* 鼠标经过头像旋转360度 */</span><br><span class="line">  -webkit-transform: rotateZ(360deg);</span><br><span class="line">  -moz-transform: rotateZ(360deg);</span><br><span class="line">  transform: rotateZ(360deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Z 轴旋转动画 */</span><br><span class="line">@-webkit-keyframes play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    -webkit-transform: rotateZ(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    -webkit-transform: rotateZ(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@-moz-keyframes play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    -moz-transform: rotateZ(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    -moz-transform: rotateZ(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@keyframes play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    transform: rotateZ(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    transform: rotateZ(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>最后：<br>CMD窗口配置运行<br>依次输入<br>hexo g<br>hexo s 即可本地浏览，无误即可<br>hexo d 进行发布博客</p>
+</blockquote>
+<hr>
+<h4 id="网站底部全站文章字数统计："><a href="#网站底部全站文章字数统计：" class="headerlink" title="网站底部全站文章字数统计："></a>网站底部全站文章字数统计：</h4><h5 id="结果图片如下：-4"><a href="#结果图片如下：-4" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%876.png" alt="字数统计"></p>
+<hr>
+<p><strong>具体实现方法：</strong></p>
+<blockquote>
+<p>切换到根目录下，然后运行如下代码</p>
+</blockquote>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
+<p><strong>打开文件夹：</strong><br>/themes/next/layout/_partials/footer.swig</p>
+<blockquote>
+<p>添加如下代码：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"theme-info"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"powered-by"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"post-count"</span>&gt;</span>博客全站共&#123;&#123; totalcount(site) &#125;&#125;字<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="设置网站的图标Favicon"><a href="#设置网站的图标Favicon" class="headerlink" title="设置网站的图标Favicon"></a>设置网站的图标Favicon</h4><h5 id="结果图片如下：-5"><a href="#结果图片如下：-5" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%877.png" alt="网站图标"></p>
+<hr>
+<p><strong>具体实现方法：</strong><br>在<a href="http://www.easyicon.net/" target="_blank" rel="noopener">EasyIcon</a>中找一张（32<em>32）的ico图标,或者去别的网站下载或者制作，并将图标名称改为*</em>favicon.ico<strong>，然后把图标放在</strong>/themes/next/source/images**里，并且修改主题配置文件：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># Put your favicon.ico into `hexo-site/source/` directory.</span><br><span class="line">favicon: /favicon.ico</span><br></pre></td></tr></table></figure>
+<h4 id="隐藏网页底部powered-By-Hexo-强力驱动"><a href="#隐藏网页底部powered-By-Hexo-强力驱动" class="headerlink" title="隐藏网页底部powered By Hexo / 强力驱动"></a>隐藏网页底部powered By Hexo / 强力驱动</h4><h5 id="结果图片如下：-6"><a href="#结果图片如下：-6" class="headerlink" title="结果图片如下："></a>结果图片如下：</h5><p><img src="/images/%E5%9B%BE%E7%89%878.png" alt="网站图标"></p>
+<hr>
+<p><strong>具体实现方法：</strong><br>打开themes/next/layout/_partials/footer.swig,使用””隐藏之间的代码即可，或者直接删除。位置如图：<br><img src="/images/%E5%9B%BE%E7%89%879.png" alt="图片9"></p>
+<hr>
+<h3 id="GitHub-Hexo-搭建个人博客详细教程"><a href="#GitHub-Hexo-搭建个人博客详细教程" class="headerlink" title="GitHub+Hexo 搭建个人博客详细教程"></a>GitHub+Hexo 搭建个人博客详细教程</h3><blockquote>
+<p>大牛链接：<br><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a></p>
+</blockquote>
+<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a></p>
+<h3 id="若还想优化hexo的next主题其他方面：可以参考如下大牛链接："><a href="#若还想优化hexo的next主题其他方面：可以参考如下大牛链接：" class="headerlink" title="若还想优化hexo的next主题其他方面：可以参考如下大牛链接："></a>若还想优化hexo的next主题其他方面：可以参考如下大牛链接：</h3><p><a href="https://www.cnblogs.com/php-linux/p/8416122.html" target="_blank" rel="noopener">大牛链接</a>：<a href="https://www.cnblogs.com/php-linux/p/8416122.html" target="_blank" rel="noopener">https://www.cnblogs.com/php-linux/p/8416122.html</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo的next主题个性小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电脑小技巧</title>
     <url>/2020/05/23/skill/</url>
     <content><![CDATA[<hr>
@@ -106,15 +219,20 @@
   <entry>
     <title>Markdown语法学习</title>
     <url>/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
+    <content><![CDATA[<hr>
+<h1 id="Markdown（Markdown语法学习"><a href="#Markdown（Markdown语法学习" class="headerlink" title="Markdown（Markdown语法学习"></a>Markdown（Markdown语法学习</h1><p>（<a href="https://www.appinn.com/markdown/）快速入门（typora）" target="_blank" rel="noopener">https://www.appinn.com/markdown/）快速入门（typora）</a></p>
+<hr>
+<h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
 <h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure>
 <h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure>
-
+<hr>
 <h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
 
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
 
 <p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p>
+<hr>
 <h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure>
 
 <p>//引用语法</p>
@@ -127,18 +245,22 @@
 </blockquote>
 </blockquote>
 </blockquote>
+<hr>
 <h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure>
 
 <hr>
 <p>分割线1</p>
 <hr>
 <p>分割线2</p>
+<hr>
 <h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p>
+<hr>
 <h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p>
+<hr>
 <h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure>
 
 <ul>
@@ -152,6 +274,7 @@
 <li><p>标签</p>
 </li>
 </ol>
+<hr>
 <h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table>
 <thead>
 <tr>
@@ -165,7 +288,23 @@
 <td></td>
 <td></td>
 </tr>
+<tr>
+<td align="center">***</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">### GitHub+Hexo 搭建个人博客详细教程</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&utm_medium=social&utm_oi=1082549714699968512" target="_blank" rel="noopener">大牛链接</a>：<a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a></td>
+<td></td>
+<td></td>
+</tr>
 </tbody></table>
+<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a></p>
 ]]></content>
       <categories>
         <category>Markdown</category>
@@ -191,7 +330,7 @@
 <p>&emsp;&emsp;梦总是突然醒的，就像泡沫一般，越吹越大，最后啪地破灭，什么也没有，除了空虚。没有脚踏实地的建立起来的东西，就无法形成精神和物质上的支撑。 ——<a href="https://baike.so.com/doc/297327-314755.html" target="_blank" rel="noopener">东野圭吾</a>  《<a href="https://baike.so.com/doc/6452992-6666677.html" target="_blank" rel="noopener">时生</a>》</p>
 ]]></content>
       <categories>
-        <category>java</category>
+        <category>Java</category>
       </categories>
       <tags>
         <tag>如何自学Java语言？ (https://how2j.cn/?p=71477)</tag>
@@ -215,16 +354,6 @@
 </html>]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>个人信息</title>
     <url>/about/index.html</url>
     <content><![CDATA[<hr>
@@ -246,15 +375,25 @@
 ]]></content>
   </entry>
   <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
   </entry>
   <entry>
     <title>个人爱好</title>
