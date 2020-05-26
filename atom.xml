@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-05-24T09:56:18.055Z</updated>
+  <updated>2020-05-26T01:06:15.181Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python的“点菜系统”</title>
+    <link href="https://lvtianxi.github.io/2020/05/26/Python/"/>
+    <id>https://lvtianxi.github.io/2020/05/26/Python/</id>
+    <published>2020-05-26T00:11:17.000Z</published>
+    <updated>2020-05-26T01:06:15.181Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;Python的“点菜系统”课程设计&quot;&gt;&lt;a href=&quot;#Python的“点菜系统”课程设计&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://LvTianXi.github.io/categories/Python/"/>
+    
+    
+      <category term="Python的“点菜系统”" scheme="https://LvTianXi.github.io/tags/Python%E7%9A%84%E2%80%9C%E7%82%B9%E8%8F%9C%E7%B3%BB%E7%BB%9F%E2%80%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML基础知识</title>
+    <link href="https://lvtianxi.github.io/2020/05/25/Html/"/>
+    <id>https://lvtianxi.github.io/2020/05/25/Html/</id>
+    <published>2020-05-25T03:57:33.000Z</published>
+    <updated>2020-05-26T01:11:10.758Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;HTML基础&quot;&gt;&lt;a href=&quot;#HTML基础&quot; class=&quot;headerlink&quot; title=&quot;HTML基础&quot;&gt;&lt;/a&gt;HTML基础&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Html" scheme="https://LvTianXi.github.io/categories/Html/"/>
+    
+    
+      <category term="HTML基础知识" scheme="https://LvTianXi.github.io/tags/HTML%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>生活小技巧</title>
@@ -136,7 +193,7 @@
     <link href="https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <id>https://lvtianxi.github.io/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
     <published>2020-05-21T10:38:26.000Z</published>
-    <updated>2020-05-23T01:09:22.057Z</updated>
+    <updated>2020-05-26T01:14:39.718Z</updated>
     
     <summary type="html">
     
@@ -145,8 +202,7 @@
         
         
           &lt;hr&gt;
-&lt;h1 id=&quot;SQL基本语法&quot;&gt;&lt;a href=&quot;#SQL基本语法&quot; class=&quot;headerlink&quot; title=&quot;SQL基本语法&quot;&gt;&lt;/a&gt;SQL基本语法&lt;/h1&gt;&lt;hr&gt;
-&lt;h3 id=&quot;简答的一些增删改查语句&quot;&gt;&lt;a
+&lt;h1 id=&quot;SQL基本语法&quot;&gt;&lt;a href=&quot;#SQL基本语法&quot; class=&quot;headerlink&quot; title=&quot;SQL基本语法&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.w3school.com.cn/sql/index.asp&quot;
         
       
     
@@ -165,7 +221,7 @@
     <link href="https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     <id>https://lvtianxi.github.io/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-05-14T16:00:00.000Z</published>
-    <updated>2020-05-24T09:43:49.218Z</updated>
+    <updated>2020-05-26T00:41:46.260Z</updated>
     
     <summary type="html">
     

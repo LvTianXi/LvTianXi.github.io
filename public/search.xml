@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>HTML基础知识</title>
+    <url>/2020/05/25/Html/</url>
+    <content><![CDATA[<hr>
+<h1 id="HTML基础"><a href="#HTML基础" class="headerlink" title="HTML基础"></a>HTML基础</h1><hr>
+<p><a href="https://www.w3school.com.cn/html/index.asp" target="_blank" rel="noopener">HTML</a>;：超文本标记语言（HyperText Markup  Language）</p>
+<blockquote>
+<p>学习HTML就是学习标签</p>
+</blockquote>
+<hr>
+<h3 id="HTML标签："><a href="#HTML标签：" class="headerlink" title="HTML标签："></a>HTML标签：</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">标题标签:<span class="tag">&lt;<span class="name">h1</span>&gt;</span>-<span class="tag">&lt;<span class="name">h6</span>&gt;</span></span><br><span class="line">段落标签:<span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">文本标签:<span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">换行标签:<span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">加粗:<span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span><br><span class="line">斜体:<span class="tag">&lt;<span class="name">i</span>&gt;</span><span class="tag">&lt;<span class="name">em</span>&gt;</span></span><br><span class="line">删除线:<span class="tag">&lt;<span class="name">s</span>&gt;</span><span class="tag">&lt;<span class="name">del</span>&gt;</span></span><br><span class="line">注意：块级标签:<span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;<span class="name">table</span>&gt;</span><span class="tag">&lt;<span class="name">ol</span>&gt;</span><span class="tag">&lt;<span class="name">ul</span>&gt;</span><span class="tag">&lt;<span class="name">form</span>&gt;</span><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">内联标签:<span class="tag">&lt;<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">input</span>&gt;</span><span class="tag">&lt;<span class="name">img</span>&gt;</span><span class="tag">&lt;<span class="name">sub</span>&gt;</span><span class="tag">&lt;<span class="name">sup</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">超链接:<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">title</span>=<span class="string">"点我有惊喜"</span>&gt;</span></span><br><span class="line">图片标签:<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">alt</span>=<span class="string">"哎呀出错了哦"</span>&gt;</span></span><br><span class="line">内联块状:<span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">"display: inline-block"</span>&gt;</span></span><br><span class="line">div标签:用于划分一个区域<span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"width: 100px; height: 100px; border: 1px solid red"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">有序列表:<span class="tag">&lt;<span class="name">ol</span>&gt;</span><span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">无序列表:<span class="tag">&lt;<span class="name">ul</span>&gt;</span><span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">自定义列表:<span class="tag">&lt;<span class="name">dl</span>&gt;</span><span class="tag">&lt;<span class="name">dt</span>&gt;</span><span class="tag">&lt;/<span class="name">dt</span>&gt;</span><span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span><span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span><span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号:"></a>特殊符号:</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">大于号：&amp;gt；</span><br><span class="line">小于号：&amp;lt；</span><br><span class="line">空格宽：&amp;nbsp；</span><br><span class="line">字符宽：&amp;emsp；</span><br><span class="line">版权：&amp;copy；</span><br><span class="line">注册商标：&amp;reg；</span><br><span class="line">元：&amp;yen；</span><br><span class="line">&amp;：&amp;amp；</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="表格："><a href="#表格：" class="headerlink" title="表格："></a>表格：</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">定义表格：<span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">thead</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">thead</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line">合并列：colsapn=""</span><br><span class="line">居中：text-align:center</span><br><span class="line">合并行：rowspan=""</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="表单："><a href="#表单：" class="headerlink" title="表单："></a>表单：</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">文本框：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">value</span>=<span class="string">""</span> <span class="attr">maxlength</span>=<span class="string">"可输入最大长度"</span> <span class="attr">size</span>=<span class="string">""</span> /&gt;</span></span><br><span class="line">提交按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"提交"</span> /&gt;</span></span><br><span class="line">普通按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"butten"</span> <span class="attr">value</span>=<span class="string">"普通按钮"</span> /&gt;</span></span><br><span class="line">密码框：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> /&gt;</span></span><br><span class="line">重置按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"reset"</span> <span class="attr">value</span>=<span class="string">"重置"</span>&gt;</span></span><br><span class="line">单选按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> /&gt;</span>name必须设置成一样的，表示一组单选按钮</span><br><span class="line">文件上传域：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> /&gt;</span></span><br><span class="line">多选按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> /&gt;</span>name可以设置成不一样的，要求设置成一样的</span><br><span class="line">下拉框：<span class="tag">&lt;<span class="name">select</span>&gt;</span><span class="tag">&lt;<span class="name">option</span>&gt;</span><span class="tag">&lt;/<span class="name">option</span>&gt;</span><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line">多行文本域：<span class="tag">&lt;<span class="name">textarea</span> <span class="attr">rows</span>=<span class="string">"行"</span> <span class="attr">cols</span>=<span class="string">"列"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br><span class="line">隐藏域：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> /&gt;</span></span><br><span class="line">图片按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">onmouseover</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="结果图片"><a href="#结果图片" class="headerlink" title="结果图片"></a>结果图片</h5><p><img src="/images/%E5%9B%BE%E7%89%8712.jpg" alt="表单"></p>
+<hr>
+<h3 id="以下为学习HTML的网站"><a href="#以下为学习HTML的网站" class="headerlink" title="以下为学习HTML的网站"></a>以下为学习HTML的网站</h3><p><a href="https://www.w3school.com.cn/html/index.asp" target="_blank" rel="noopener">HTML</a>；</p>
+<blockquote>
+<p>　超文本标记语言（HyperText Markup  Language）</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>Html</category>
+      </categories>
+      <tags>
+        <tag>HTML基础知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python的“点菜系统”</title>
+    <url>/2020/05/26/Python/</url>
+    <content><![CDATA[<hr>
+<h1 id="Python的“点菜系统”课程设计"><a href="#Python的“点菜系统”课程设计" class="headerlink" title="Python的“点菜系统”课程设计"></a>Python的“点菜系统”课程设计</h1><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp; &emsp;本次课程设计为用Python语言制作一个简单的”点菜系统”，所用到的编程工具有：<strong>Pycharm</strong>，以及数据库连接的：<strong>My SQL</strong>(简易便携还实惠)；<strong>Google</strong>浏览器；</p>
+<hr>
+<h3 id="第一步：初识网站构造"><a href="#第一步：初识网站构造" class="headerlink" title="第一步：初识网站构造"></a>第一步：初识网站构造</h3><p>网页主要由三部分组成：</p>
+<blockquote>
+<p><a href="https://www.w3school.com.cn/html/index.asp" target="_blank" rel="noopener">HTML</a>;<br><a href="https://www.w3school.com.cn/css/index.asp" target="_blank" rel="noopener">CSS</a>;<br><a href="https://www.w3school.com.cn/js/index.asp" target="_blank" rel="noopener">JavaScript</a>;</p>
+</blockquote>
+<p><strong>戏剧化：</strong></p>
+<blockquote>
+<p>HTML-毛坯房（超文本标记语言（HyperText Markup  Language）学习HTML就是学习标签）<br>CSS-装修<br>JavaScript-添加智能家居</p>
+</blockquote>
+<hr>
+<h4 id="网站的构造"><a href="#网站的构造" class="headerlink" title="网站的构造"></a>网站的构造</h4><p><img src="/images/%E5%9B%BE%E7%89%8711.png" alt="网站构造图片"></p>
+<hr>
+<h3 id="HTML表单知识"><a href="#HTML表单知识" class="headerlink" title="HTML表单知识"></a>HTML表单知识</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">文本框：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">value</span>=<span class="string">""</span> <span class="attr">maxlength</span>=<span class="string">"可输入最大长度"</span> <span class="attr">size</span>=<span class="string">""</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">提交按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"提交"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">普通按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"butten"</span> <span class="attr">value</span>=<span class="string">"普通按钮"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">密码框：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">重置按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"reset"</span> <span class="attr">value</span>=<span class="string">"重置"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">单选按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> /&gt;</span>name必须设置成一样的，表示一组单选按钮</span><br><span class="line"></span><br><span class="line">文件上传域：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">多选按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> /&gt;</span>name可以设置成不一样的，要求设置成一样的</span><br><span class="line"></span><br><span class="line">下拉框：<span class="tag">&lt;<span class="name">select</span>&gt;</span><span class="tag">&lt;<span class="name">option</span>&gt;</span><span class="tag">&lt;/<span class="name">option</span>&gt;</span><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line">多行文本域：<span class="tag">&lt;<span class="name">textarea</span> <span class="attr">rows</span>=<span class="string">"行"</span> <span class="attr">cols</span>=<span class="string">"列"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br><span class="line"></span><br><span class="line">隐藏域：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">图片按钮：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">onmouseover</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="代码对应结果如下"><a href="#代码对应结果如下" class="headerlink" title="代码对应结果如下"></a>代码对应结果如下</h5><p>文本框：<input type="text" value="" maxlength="可输入最大长度" size="" /></p>
+<p>提交按钮：<input type="submit" value="提交" /></p>
+<p>普通按钮：<input type="butten" value="普通按钮" /></p>
+<p>密码框：<input type="password" /></p>
+<p>重置按钮：<input type="reset" value="重置"></p>
+<p>单选按钮：<input type="radio" />name必须设置成一样的，表示一组单选按钮</p>
+<p>文件上传域：<input type="file" /></p>
+<p>多选按钮：<input type="checkbox" />name可以设置成不一样的，要求设置成一样的</p>
+<p>下拉框：<select><option></option></select></p>
+<p>多行文本域：<textarea rows="行" cols="列"></textarea></p>
+<p>隐藏域：<input type="hidden" /></p>
+<p>图片按钮：<input type="image" src="" onmouseover /></p>
+<hr>
+<h3 id="第一天要求实验作业："><a href="#第一天要求实验作业：" class="headerlink" title="第一天要求实验作业："></a>第一天要求实验作业：</h3><p>制作如下表单：<br><img src="/images/%E5%9B%BE%E7%89%8712.jpg" alt="表单"></p>
+<hr>
+<h3 id="我的源代码以及实验结果如下"><a href="#我的源代码以及实验结果如下" class="headerlink" title="我的源代码以及实验结果如下"></a>我的源代码以及实验结果如下</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">br</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>第一次作业答题如下<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;<span class="name">center</span>&gt;</span>第一次作业答题如下<span class="tag">&lt;/<span class="name">center</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"form_action.asp"</span> <span class="attr">method</span>=<span class="string">"get"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">center</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>用户名：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">value</span>=<span class="string">"请输入用户名"</span> <span class="attr">maxlength</span>=<span class="string">"可输入最大长度"</span> <span class="attr">size</span>=<span class="string">"30"</span> /&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>密<span class="symbol">&amp;emsp;</span>码：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">value</span>=<span class="string">"请输入密码"</span> <span class="attr">maxlength</span>=<span class="string">"可输入最大长度"</span> <span class="attr">size</span>=<span class="string">"30"</span> /&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>性<span class="symbol">&amp;emsp;</span>别：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"man"</span>&gt;</span>男<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">value</span>=<span class="string">"man"</span> <span class="attr">id</span>=<span class="string">"man"</span> /&gt;</span><span class="symbol">&amp;emsp;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"women"</span>&gt;</span>女<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">value</span>=<span class="string">"women"</span> <span class="attr">id</span>=<span class="string">"women"</span> /&gt;</span><span class="symbol">&amp;emsp;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"secret"</span>&gt;</span>保密<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">value</span>=<span class="string">"secret"</span> <span class="attr">id</span>=<span class="string">"secret"</span> /&gt;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">strong</span>&gt;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>爱<span class="symbol">&amp;emsp;</span>好：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"sing"</span>&gt;</span>唱歌<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"sing"</span> <span class="attr">value</span>=<span class="string">"sing"</span> <span class="attr">id</span>=<span class="string">"sing"</span> /&gt;</span><span class="symbol">&amp;emsp;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"dance"</span>&gt;</span>跳舞<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"dance"</span> <span class="attr">value</span>=<span class="string">"dance"</span> <span class="attr">id</span>=<span class="string">"dance"</span> /&gt;</span><span class="symbol">&amp;emsp;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"paint"</span>&gt;</span>画画<span class="tag">&lt;/<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"paint"</span> <span class="attr">value</span>=<span class="string">"paint"</span> <span class="attr">id</span>=<span class="string">"paint"</span> /&gt;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="symbol">&amp;nbsp;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">""</span>&gt;</span></span><br><span class="line">          <span class="symbol">&amp;nbsp;</span>  <span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>上传头像：<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>地<span class="symbol">&amp;emsp;</span>址：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">select</span> <span class="attr">name</span>=<span class="string">""</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">" "</span>&gt;</span>筛选地址<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"龙岩市"</span>&gt;</span>龙岩市<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"福州市"</span>&gt;</span>福州市<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"厦门市"</span>&gt;</span>厦门市<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"漳州市"</span>&gt;</span>漳州市<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">select</span>&gt;</span> <span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">a</span>&gt;</span>个人简介：<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">cols</span>=<span class="string">"35"</span> <span class="attr">rows</span>=<span class="string">"7"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">center</span>&gt;</span>  <span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span>   <span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span><span class="symbol">&amp;emsp;</span>  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"提交"</span> /&gt;</span><span class="symbol">&amp;emsp;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"reset"</span> <span class="attr">value</span>=<span class="string">"重置"</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h4 id="实验截图："><a href="#实验截图：" class="headerlink" title="实验截图："></a>实验截图：</h4><p><img src="/images/%E5%9B%BE%E7%89%8713.png" alt="第一次实验结果"></p>
+<hr>
+<h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><hr>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python的“点菜系统”</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>生活小技巧</title>
     <url>/2020/05/24/life/</url>
     <content><![CDATA[<hr>
@@ -194,7 +277,7 @@
     <title>SQL数据库</title>
     <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     <content><![CDATA[<hr>
-<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a>SQL基本语法</h1><hr>
+<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>基本语法</h1><hr>
 <h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
 <h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
 <h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
@@ -208,6 +291,10 @@
 </blockquote>
 <h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
 <hr>
+<h3 id="以下为SQL的教程"><a href="#以下为SQL的教程" class="headerlink" title="以下为SQL的教程"></a>以下为SQL的教程</h3><p><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>；</p>
+<blockquote>
+<p>冲冲冲!</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>SQL</category>
@@ -288,23 +375,10 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
-<td align="center">***</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">### GitHub+Hexo 搭建个人博客详细教程</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center"><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&utm_medium=social&utm_oi=1082549714699968512" target="_blank" rel="noopener">大牛链接</a>：<a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a></td>
-<td></td>
-<td></td>
-</tr>
 </tbody></table>
-<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a></p>
+<hr>
+<h3 id="GitHub-Hexo-搭建个人博客详细教程"><a href="#GitHub-Hexo-搭建个人博客详细教程" class="headerlink" title="GitHub+Hexo 搭建个人博客详细教程"></a>GitHub+Hexo 搭建个人博客详细教程</h3><p><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&utm_medium=social&utm_oi=1082549714699968512" target="_blank" rel="noopener">大牛链接</a>：(<a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a>);</p>
+<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：(<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a>);</p>
 ]]></content>
       <categories>
         <category>Markdown</category>
@@ -354,6 +428,11 @@
 </html>]]></content>
   </entry>
   <entry>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>个人信息</title>
     <url>/about/index.html</url>
     <content><![CDATA[<hr>
@@ -375,25 +454,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
   </entry>
   <entry>
     <title>分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
   </entry>
   <entry>
     <title>个人爱好</title>
@@ -402,5 +471,10 @@
 <h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
 <hr>
 ]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
