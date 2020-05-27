@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lvtianxi.github.io/about/index.html</loc>
+    
+    <lastmod>2020-05-27T06:57:14.953Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lvtianxi.github.io/2020/05/26/Python/</loc>
     
     <lastmod>2020-05-27T00:59:11.521Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://lvtianxi.github.io/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2020-05-24T09:45:24.187Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lvtianxi.github.io/about/index.html</loc>
-    
-    <lastmod>2020-05-24T01:13:29.805Z</lastmod>
     
   </url>
   
