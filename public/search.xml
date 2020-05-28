@@ -36,193 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SQL数据库</title>
-    <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<hr>
-<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>基本语法</h1><hr>
-<h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
-<h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
-<h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
-<h5 id="4：查询语句"><a href="#4：查询语句" class="headerlink" title="4：查询语句"></a>4：查询语句</h5><h6 id="查询单条记录的所有字段"><a href="#查询单条记录的所有字段" class="headerlink" title="查询单条记录的所有字段"></a>查询单条记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
-<h6 id="查询所有记录的所有字段"><a href="#查询所有记录的所有字段" class="headerlink" title="查询所有记录的所有字段"></a>查询所有记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> [<span class="keyword">column</span>] <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
-<p><strong>注意：</strong><br><em>order by column asc代表：以column字段，升序排列。desc为降序</em></p>
-<h6 id="查询给定偏移量的记录的所有字段"><a href="#查询给定偏移量的记录的所有字段" class="headerlink" title="查询给定偏移量的记录的所有字段"></a>查询给定偏移量的记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">limit</span> [<span class="keyword">offset</span>], [<span class="keyword">limit</span>]</span><br></pre></td></tr></table></figure>
-<p><strong>注意</strong></p>
-<blockquote>
-<p>1.offset指定从哪个索引开始，默认从0开始<br>2.limit指定查询几条记录</p>
-</blockquote>
-<h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="以下为SQL的教程"><a href="#以下为SQL的教程" class="headerlink" title="以下为SQL的教程"></a>以下为SQL的教程</h3><p><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>；</p>
-<blockquote>
-<p>冲冲冲!</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>SQL</category>
-      </categories>
-      <tags>
-        <tag>SQL数据库杂货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学生信息管理系统开发</title>
-    <url>/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</url>
-    <content><![CDATA[<hr>
-<h1 id="C-学生管理系统开发"><a href="#C-学生管理系统开发" class="headerlink" title="C#学生管理系统开发"></a>C#学生管理系统开发</h1><hr>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  本次课程设计主要是利用<strong>VS 2017</strong>以及<strong>SQL 2012</strong>一起开发出一个<strong>学生信息管理系统</strong>用于管理学生的各种信息，包括成绩，所读学科等；大致分为<strong>5</strong>个部分；如下所示：</p>
-<hr>
-<h3 id="第一部分：菜单制作"><a href="#第一部分：菜单制作" class="headerlink" title="第一部分：菜单制作"></a>第一部分：菜单制作</h3><h4 id="目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；"><a href="#目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；" class="headerlink" title="目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；"></a>目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；</h4><blockquote>
-<p>MenuStrip控件<br>ToolStrip控件<br>StatusStrip控件</p>
-</blockquote>
-<h4 id="窗口制作要求："><a href="#窗口制作要求：" class="headerlink" title="窗口制作要求："></a>窗口制作要求：</h4><p><img src="/images/11.png" alt="窗口菜单"></p>
-<h4 id="制作结果如下："><a href="#制作结果如下：" class="headerlink" title="制作结果如下："></a>制作结果如下：</h4><p><img src="/images/2.png" alt="窗口菜单"></p>
-<h4 id="窗口代码有："><a href="#窗口代码有：" class="headerlink" title="窗口代码有："></a>窗口代码有：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;</span><br><span class="line">    public partial class mainForm : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public mainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="本次实验要点："><a href="#本次实验要点：" class="headerlink" title="本次实验要点："></a>本次实验要点：</h4><p>   熟练使用<strong>MenuStrip,ToolStrip，StatusStrip</strong>控件的基本功能；以及如何添加窗口需要的控件等；再者就是如何更改窗口的一些配置；如窗口图标，背景，颜色，大小；还有菜单栏子目录的添加等操作；</p>
-<hr>
-<h3 id="第二部分：数据库的操作"><a href="#第二部分：数据库的操作" class="headerlink" title="第二部分：数据库的操作"></a>第二部分：数据库的操作</h3><h4 id="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会"><a href="#目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会" class="headerlink" title="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;"></a>目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;</h4><hr>
-<p><strong>本次实验出现过好几个问题，下面附带自己的解决方法：</strong></p>
-<h4 id="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"><a href="#第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误" class="headerlink" title="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"></a>第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误</h4><p><img src="/images/4.png" alt="问题图片"></p>
-<h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p><a href="https://www.cnblogs.com/bingdaocaihong/p/10694429.html" target="_blank" rel="noopener">解决方法请点击</a></p>
-<blockquote>
-<p>打开SQL server配置管理器也可以这样<br>（cmd命令行输入SQLServerManager11.msc）<br>cmd命令行打开方式：win+R键  </p>
-</blockquote>
-<p><strong>注明：</strong><br>有些人可能这个不知道如何打开<br><img src="/images/5.png" alt="问题图片"><br><strong>解决方法：</strong>请右键点击三角号后，你可能看不到如何选择，这时候你用键盘方向键“下键”去选择后，敲击“Enter”即可；</p>
-<hr>
-<h4 id="第二个：SQL和VS-2017连接数据库服务器不显示问题"><a href="#第二个：SQL和VS-2017连接数据库服务器不显示问题" class="headerlink" title="第二个：SQL和VS 2017连接数据库服务器不显示问题"></a>第二个：SQL和VS 2017连接数据库服务器不显示问题</h4><p>问题图片：<br><img src="/images/6.png" alt="问题图片"><br><strong>解决方法 1：</strong>手动在这里填入：这个字符串(localdb)\v11.0<br><strong>解决方法 2：</strong>手动在这里输入： 你的SQL 服务器名称<br><img src="/images/7.png" alt="问题图片"></p>
-<hr>
-<h3 id="第三个：SQL的登录数据库的密码一定要记得！"><a href="#第三个：SQL的登录数据库的密码一定要记得！" class="headerlink" title="第三个：SQL的登录数据库的密码一定要记得！"></a>第三个：SQL的登录数据库的密码一定要记得！</h3><p>初始账号：sa<br>初始密码：别设置太难的；（痛苦经历）</p>
-<hr>
-<h2 id="本次实验主要SQL-2012建表代码如下"><a href="#本次实验主要SQL-2012建表代码如下" class="headerlink" title="本次实验主要SQL 2012建表代码如下"></a>本次实验主要SQL 2012建表代码如下</h2><p><strong>新建的一个stuser表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> stuser(</span><br><span class="line"> <span class="keyword">name</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> <span class="keyword">password</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> stuser(<span class="keyword">name</span>,<span class="keyword">password</span>)<span class="keyword">values</span>(<span class="string">'ltx'</span>,<span class="string">'123456'</span>)</span><br></pre></td></tr></table></figure>
-
-<p><strong>新建的一个student表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> student(</span><br><span class="line"> sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>  <span class="keyword">identity</span>(<span class="number">1</span>,<span class="number">1</span>) primary <span class="keyword">key</span>,</span><br><span class="line"> sname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> sex <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> birthday datetime <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> dept <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> major <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> hobby <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="string">'小白'</span>,<span class="string">'男'</span>,<span class="string">'1999-01-20'</span>,<span class="string">'国际学院'</span>,<span class="string">'网络工程'</span>,<span class="string">'听歌，读书'</span>)</span><br><span class="line"><span class="keyword">set</span> IDENTITY_INSERT student <span class="keyword">on</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sno,sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="number">2</span>,<span class="string">'天少'</span>,<span class="string">'男'</span>,<span class="string">'1999-11-20'</span>,<span class="string">'外国语学院'</span>,<span class="string">'信息管理'</span>,<span class="string">'爬山，看电影'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> student</span><br></pre></td></tr></table></figure>
-
-<p><strong>新建的一个course表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> stuManage</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> course(</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span> primary <span class="keyword">key</span>,</span><br><span class="line">cname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cclass <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">reqcourse <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">credit <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">precredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">expcredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1001'</span>,<span class="string">'C++'</span>,<span class="string">'专业必修'</span>,<span class="string">'是'</span>,<span class="string">'4'</span>,<span class="string">'3'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1002'</span>,<span class="string">'网络编程'</span>,<span class="string">'专业选修'</span>,<span class="string">'是'</span>,<span class="string">'3'</span>,<span class="string">'2'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> score</span><br></pre></td></tr></table></figure>
-
-<p><strong>新建的一个score表格代码：</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> score(</span><br><span class="line">sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">score <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"><span class="keyword">constraint</span>[PK_score] primary <span class="keyword">key</span>([sno],[cid])</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">1</span>,<span class="number">1001</span>,<span class="number">87</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">2</span>,<span class="number">1001</span>,<span class="number">97</span>)</span><br></pre></td></tr></table></figure>
-
-<h4 id="结果图片："><a href="#结果图片：" class="headerlink" title="结果图片："></a>结果图片：</h4><blockquote>
-<p><img src="/images/8.png" alt="结果图片"><br><img src="/images/9.png" alt="结果图片">   </p>
-</blockquote>
-<hr>
-<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;和“VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
-<hr>
-<h3 id="第三部分：数据库操作"><a href="#第三部分：数据库操作" class="headerlink" title="第三部分：数据库操作"></a>第三部分：数据库操作</h3><h4 id="目的：连接数据库，实现菜单的用户登录功能"><a href="#目的：连接数据库，实现菜单的用户登录功能" class="headerlink" title="目的：连接数据库，实现菜单的用户登录功能"></a>目的：连接数据库，实现菜单的用户登录功能</h4><p> <strong>要求图片:</strong><br> <img src="/images/10.png" alt="结果图片"> </p>
-<hr>
-<p><strong>主窗口初始图片：</strong><br><img src="/images/12.png" alt="初始界面"><br><strong>主窗口运行界面</strong><br><img src="/images/13.png" alt="运行界面"></p>
-<hr>
-<p><strong>登录界面初始图片：</strong><br><img src="/images/14.png" alt="初始界面"><br><strong>登录界面运行界面</strong><br><img src="/images/15.png" alt="运行界面"></p>
-<hr>
-<h2 id="完成登录操作后自己添加的用户注册界面"><a href="#完成登录操作后自己添加的用户注册界面" class="headerlink" title="完成登录操作后自己添加的用户注册界面"></a>完成登录操作后自己添加的用户注册界面</h2><p><strong>注册界面初始图片：</strong><br><img src="/images/14.png" alt="初始界面"><br><strong>注册界面运行界面</strong><br><img src="/images/16.png" alt="运行界面"></p>
-<hr>
-<h4 id="窗口源代码如下"><a href="#窗口源代码如下" class="headerlink" title="窗口源代码如下"></a>窗口源代码如下</h4><h5 id="第一部分的主窗口代码；"><a href="#第一部分的主窗口代码；" class="headerlink" title="第一部分的主窗口代码；"></a>第一部分的主窗口代码；</h5><p><strong>代码作用：用于功能选择以及提示登录信息，以及跳转到登录Login界面等操作；</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line">namespace stuManage</span><br><span class="line">&#123; public partial class MainForm : Form</span><br><span class="line">    &#123;  public static bool enable &#x3D; false;</span><br><span class="line">        public MainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();     </span><br><span class="line">        &#125;</span><br><span class="line">        bool isLogined &#x3D; false;</span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        private void sysLogin_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            MainForm.enable &#x3D; false;</span><br><span class="line">            Login Lfrm &#x3D; new Login();</span><br><span class="line">            tssMsg.Text &#x3D; Lfrm.Text;</span><br><span class="line"></span><br><span class="line">            if(Lfrm.ShowDialog()&#x3D;&#x3D;DialogResult.OK)</span><br><span class="line">            if ((bool)Lfrm.Tag)</span><br><span class="line">            &#123;</span><br><span class="line">                isLogined &#x3D; true;</span><br><span class="line">                tssMsg.Text &#x3D; &quot;恭喜您已经成功登录！&quot;;</span><br><span class="line">            &#125;</span><br><span class="line">            else</span><br><span class="line">            &#123;</span><br><span class="line">                isLogined &#x3D; false;</span><br><span class="line">                tssMsg.Text &#x3D; &quot;注意，您必须先登录才能使用该系统！&quot;;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        private void sysExit_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            this.Close();</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void sysAdd_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            MainForm.enable &#x3D; true;</span><br><span class="line">            Login form &#x3D; new Login();</span><br><span class="line">            form.Show(); </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h5 id="第二部分的主窗口代码；"><a href="#第二部分的主窗口代码；" class="headerlink" title="第二部分的主窗口代码；"></a>第二部分的主窗口代码；</h5><p>代码作用：用于登录界面，以及自己添加的<strong>用户注册账户</strong>的功能；</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line">using System.Data.SqlClient;</span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;  public partial class Login : Form</span><br><span class="line">    &#123; public static SqlConnection connection;</span><br><span class="line">        public Login()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">            button3.Enabled &#x3D; false;</span><br><span class="line">            string constr &#x3D; &quot;Server&#x3D;127.0.0.1;database&#x3D;stuManage;uid&#x3D;sa;pwd&#x3D;198022&quot;;</span><br><span class="line">            connection &#x3D; new SqlConnection(constr);</span><br><span class="line">            if (MainForm.enable &#x3D;&#x3D; true)</span><br><span class="line">                button3.Enabled &#x3D; true;</span><br><span class="line">        &#125;</span><br><span class="line">        private void label3_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        public static bool LoginSQL(string sql)</span><br><span class="line">        &#123;</span><br><span class="line">            object a;</span><br><span class="line">            SqlCommand command &#x3D; new SqlCommand(sql, connection);  &#x2F;&#x2F;指定要执行的SQL语句</span><br><span class="line">            if (connection.State &#x3D;&#x3D; ConnectionState.Closed)        &#x2F;&#x2F;如果当前数据库处于关闭状态</span><br><span class="line">                connection.Open();                                 &#x2F;&#x2F;打开数据库连接</span><br><span class="line">            a &#x3D; command.ExecuteScalar();    &#x2F;&#x2F;执行查询</span><br><span class="line">            connection.Close();                                    &#x2F;&#x2F;关闭数据库连接</span><br><span class="line">            if (a &#x3D;&#x3D; null)</span><br><span class="line">                return false;</span><br><span class="line">            else</span><br><span class="line">                return true;</span><br><span class="line">   &#125;</span><br><span class="line">        private void Login_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            string userName &#x3D; txtName.Text;</span><br><span class="line">            string userPwd &#x3D; txtPwd.Text;</span><br><span class="line">            string sql &#x3D; string.Format(&quot;Select name From stuser Where name&#x3D;&#39;&#123;0&#125;&#39; And password&#x3D;&#39;&#123;1&#125;&#39;&quot;, userName ,userPwd);</span><br><span class="line">            bool a&#x3D; LoginSQL(sql);</span><br><span class="line">            if (a &#x3D;&#x3D; true)</span><br><span class="line">            &#123;</span><br><span class="line">                MessageBox.Show(&quot;登录成功&quot;);</span><br><span class="line">                this.DialogResult &#x3D; DialogResult.OK;</span><br><span class="line">                this.Tag &#x3D; true;</span><br><span class="line">                this.Close();</span><br><span class="line">            &#125;</span><br><span class="line">            else</span><br><span class="line">            &#123; MessageBox.Show(&quot;登录失败&quot;);</span><br><span class="line">                this.Tag &#x3D; false;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        private void button2_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            this.Close();</span><br><span class="line">            button3.Enabled &#x3D; false;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void button3_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            string sql &#x3D; string.Format(&quot;Insert into stuser Values(&#39;&#123;0&#125;&#39;,&#39;&#123;1&#125;&#39;)&quot;, txtName.Text, txtPwd.Text);</span><br><span class="line">            SqlCommand command &#x3D; new SqlCommand(sql, connection);</span><br><span class="line">            if (connection.State &#x3D;&#x3D; ConnectionState.Closed)              &#x2F;&#x2F;如果当前数据库处于关闭状态</span><br><span class="line">                connection.Open();                                       &#x2F;&#x2F;打开数据库连接</span><br><span class="line">            int result &#x3D; command.ExecuteNonQuery();                      &#x2F;&#x2F;执行SQL语句</span><br><span class="line">            connection.Close();                                          &#x2F;&#x2F;关闭数据库连接</span><br><span class="line">           if(result&#x3D;&#x3D;1)</span><br><span class="line">            &#123;</span><br><span class="line">                MessageBox.Show(&quot;注册成功&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">           else</span><br><span class="line">                MessageBox.Show(&quot;注册失败&quot;);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void label2_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h5 id="本次实验心得"><a href="#本次实验心得" class="headerlink" title="本次实验心得"></a>本次实验心得</h5><p>&emsp;本次实验主要是进行连接数据库，以及实现菜单的用户登录功能，其次在这个的基础上，我自己添加了一个，用户注册的功能操作；今天本来用老师的代码，通俗易懂，一切一开始还没出错，结果运行显示连接不了数据库，自然也登录不了系统；后面用自己的笨方法也是做出来了；最大的感受就是，你需要不断的调试代码；去找出程序中哪里不足，不断改进，要有耐心，有问题多百度去寻求解决方法；不要一直看着错误bug却不动；还有就是连接数据库中有很多小操作，不能疏忽它的重要性；通过这次实验，感觉自己又精进了一点C#和数据库的知识；自己动手，确实受益匪浅；</p>
-<hr>
-<h3 id="第四部分：应用程序访问数据库"><a href="#第四部分：应用程序访问数据库" class="headerlink" title="第四部分：应用程序访问数据库"></a>第四部分：应用程序访问数据库</h3><h4 id="目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；"><a href="#目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；" class="headerlink" title="目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；"></a>目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；</h4><p> <strong>要求图片:</strong><br> <img src="/images/17.png" alt="结果图片"> </p>
-<hr>
-]]></content>
-      <categories>
-        <category>C#</category>
-      </categories>
-      <tags>
-        <tag>C#学生管理系统开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown语法学习</title>
-    <url>/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<hr>
-<h1 id="Markdown（Markdown语法学习"><a href="#Markdown（Markdown语法学习" class="headerlink" title="Markdown（Markdown语法学习"></a>Markdown（Markdown语法学习</h1><p>（<a href="https://www.appinn.com/markdown/）快速入门（typora）" target="_blank" rel="noopener">https://www.appinn.com/markdown/）快速入门（typora）</a></p>
-<hr>
-<h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
-<h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure>
-<h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
-<h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
-
-<p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p>
-<hr>
-<h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure>
-
-<p>//引用语法</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-<blockquote>
-<p>作者：小白驹</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>分割线1</p>
-<hr>
-<p>分割线2</p>
-<hr>
-<h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p>
-<hr>
-<h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p>
-<hr>
-<h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>无序列表</li>
-</ul>
-<ol>
-<li><p>首页 </p>
-</li>
-<li><p>分类</p>
-</li>
-<li><p>标签</p>
-</li>
-</ol>
-<hr>
-<h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table>
-<thead>
-<tr>
-<th align="center">成绩</th>
-<th>语文</th>
-<th>数学</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<hr>
-<h3 id="GitHub-Hexo-搭建个人博客详细教程"><a href="#GitHub-Hexo-搭建个人博客详细教程" class="headerlink" title="GitHub+Hexo 搭建个人博客详细教程"></a>GitHub+Hexo 搭建个人博客详细教程</h3><p><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&utm_medium=social&utm_oi=1082549714699968512" target="_blank" rel="noopener">大牛链接</a>：(<a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a>);</p>
-<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：(<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a>);</p>
-]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Markdown语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python的“点菜系统”</title>
     <url>/2020/05/26/Python/</url>
     <content><![CDATA[<hr>
@@ -274,6 +87,19 @@
       </categories>
       <tags>
         <tag>Python的“点菜系统”</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活小技巧</title>
+    <url>/2020/05/24/life/</url>
+    <content><![CDATA[<hr>
+<h1 id="Life"><a href="#Life" class="headerlink" title="Life"></a>Life</h1><hr>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>生活小技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -377,6 +203,213 @@
       </tags>
   </entry>
   <entry>
+    <title>电脑小技巧</title>
+    <url>/2020/05/23/skill/</url>
+    <content><![CDATA[<hr>
+<h2 id="CMD命令行常用命令"><a href="#CMD命令行常用命令" class="headerlink" title="CMD命令行常用命令"></a>CMD命令行常用命令</h2><hr>
+<h4 id="打开CMD命令界面："><a href="#打开CMD命令界面：" class="headerlink" title="打开CMD命令界面："></a><strong>打开CMD命令界面：</strong></h4><blockquote>
+<p>1:开始－&gt;运行－&gt;键入cmd或command(在命令行里可以看到系统版本、文件系统版本)<br>2:win+R键；输入cmd即可；</p>
+</blockquote>
+<h5 id="CMD命令如下："><a href="#CMD命令如下：" class="headerlink" title="CMD命令如下："></a>CMD命令如下：</h5><blockquote>
+<p>1、 gpedit.msc—–组策略。<br>2.、sndrec32——-录音机。<br>3、Nslookup——-IP地址侦测器 ，是一个 监测网络中 DNS 服务器是否能正确实现域名解析的命令行工具。 它在 Windows NT/2000/XP 中均可使用 , 但在 Windows 98 中却没有集成这一个工具。　<br>4、explorer——-打开资源管理器。<br>5、logoff———注销命令。<br>6、shutdown——-60秒倒计时关机命令。<br>7、lusrmgr.msc—-本机用户和组。<br>8、services.msc—本地服务设置。<br>9、oobe/msoobe /a—-检查XP是否激活。<br>10、 notepad——–打开记事本。<br>11、cleanmgr——-垃圾整理。<br>12、net start messenger—-开始信使服务。<br>13、 compmgmt.msc—计算机管理。<br>14、net stop messenger—–停止信使服务。<br>15、conf———–启动netmeeting。<br>16、dvdplay——–DVD播放器。<br>17、charmap——–启动字符映射表。<br>18、 diskmgmt.msc—磁盘管理实用程序。<br>19、calc———–启动计算器。<br>20、 dfrg.msc——-磁盘碎片整理程序。<br>21、chkdsk.exe—–Chkdsk磁盘检查。<br>22、devmgmt.msc— 设备管理器。<br>23、regsvr32 /u *.dll—-停止dll文件运行。<br>24、 drwtsn32—— 系统医生。<br>25.、rononce -p—-15秒关机。<br>26、dxdiag———检查DirectX信息。<br>27、 regedt32——-注册表编辑器。<br>28、 Msconfig.exe—系统配置实用程序。<br>29、 rsop.msc——-组策略结果集。<br>30、mem.exe——–显示内存使用情况。<br>31、regedit.exe—-注册表。<br>32、winchat——–XP自带局域网聊天。<br>33、progman——–程序管理器。<br>34、winmsd———系统信息。<br>35、perfmon.msc—-计算机性能监测程序。<br>36、 winver———检查Windows版本。<br>37、sfc /scannow—–扫描错误并复原。<br>38、taskmgr—–任务管理器（2000/xp/2003）。<br>39、wmimgmt.msc—-打开windows管理体系结构(WMI)。<br>40、wupdmgr——–windows更新程序。<br>41、wscript——–windows脚本宿主设置。<br>42、write———-写字板。<br>43、 wiaacmgr——-扫描仪和照相机向导。<br>44、 winchat——–XP自带局域网聊天。<br>45、 mspaint——–画图板。<br>46、 mstsc———-远程桌面连接。<br>47、magnify——–放大镜实用程序.<br>48.、mmc————打开控制台。<br>49、mobsync——–同步命令。<br>50、iexpress——-木马捆绑工具，系统自带。<br>51、fsmgmt.msc—–共享文件夹管理器。<br>52、utilman——–辅助工具管理器。<br>53、 dcomcnfg——-打开系统组件服务。<br>54、 ddeshare——-打开DDE共享设置。<br>55、 osk————打开屏幕键盘。<br>56、 ntbackup——-系统备份和还原。<br>57、 ntmsmgr、msc—-移动存储管理器。<br>58、 ntmsoprq、msc—移动存储管理员操作请求。<br>59、 netstat -an—-(TC)命令检查接口。<br>60、 syncapp——–创建一个公文包。<br>61、 sysedit——–系统配置编辑器。<br>62、 sigverif——-文件签名验证程序。<br>63、 ciadv、msc——索引服务程序。<br>64、 shrpubw——–创建共享文件夹。<br>65、 secpol、msc—–本地安全策略。<br>66、 syskey———系统加密，一旦加密就不能解开，保护windows xp系统的双重密码。<br>67、 services、msc—本地服务设置。<br>68、 Sndvol32——-音量控制程序。<br>69、 sfc、exe——–系统文件检查器。<br>70、 sfc /scannow—windows文件保护。<br>71、 ciadv、msc——索引服务程序。<br>72、 tourstart——xp简介（安装完成后出现的漫游xp程序）。<br>73、 taskmgr——–任务管理器。<br>74、 eventvwr——-事件查看器。<br>75、 eudcedit——-造字程序。<br>76、 compmgmt、msc—计算机管理。<br>77、 packager——-对象包装程序。<br>78、 perfmon、msc—-计算机性能监测程序。<br>79、 charmap——–启动字符映射表。<br>80、 cliconfg——-SQL SERVER 客户端网络实用程序。<br>81、 Clipbrd——–剪贴板查看器。<br>82、 conf———–启动netmeeting。<br>83、 certmgr、msc—-证书管理实用程序。<br>84、 regsvr32 /u *、dll—-停止dll文件运行。<br>85、 regsvr32 /u zipfldr、dll——取消ZIP支持。<br>86、 cmd、exe——–CMD命令提示符。</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>CMD</category>
+      </categories>
+      <tags>
+        <tag>CMD命令行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学生信息管理系统开发</title>
+    <url>/2020/05/21/C-%E8%AF%BE%E8%AE%BE/</url>
+    <content><![CDATA[<hr>
+<h1 id="C-学生管理系统开发"><a href="#C-学生管理系统开发" class="headerlink" title="C#学生管理系统开发"></a>C#学生管理系统开发</h1><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  本次课程设计主要是利用<strong>VS 2017</strong>以及<strong>SQL 2012</strong>一起开发出一个<strong>学生信息管理系统</strong>用于管理学生的各种信息，包括成绩，所读学科等；大致分为<strong>5</strong>个部分；如下所示：</p>
+<hr>
+<h3 id="第一部分：菜单制作"><a href="#第一部分：菜单制作" class="headerlink" title="第一部分：菜单制作"></a>第一部分：菜单制作</h3><h4 id="目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；"><a href="#目的：熟练掌握VS-2017用C-制作菜单窗口的过程，以及掌握以下三个控件的使用；" class="headerlink" title="目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；"></a>目的：熟练掌握VS 2017用C#制作菜单窗口的过程，以及掌握以下三个控件的使用；</h4><blockquote>
+<p>MenuStrip控件<br>ToolStrip控件<br>StatusStrip控件</p>
+</blockquote>
+<h4 id="窗口制作要求："><a href="#窗口制作要求：" class="headerlink" title="窗口制作要求："></a>窗口制作要求：</h4><p><img src="/images/11.png" alt="窗口菜单"></p>
+<h4 id="制作结果如下："><a href="#制作结果如下：" class="headerlink" title="制作结果如下："></a>制作结果如下：</h4><p><img src="/images/2.png" alt="窗口菜单"></p>
+<h4 id="窗口代码有："><a href="#窗口代码有：" class="headerlink" title="窗口代码有："></a>窗口代码有：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;</span><br><span class="line">    public partial class mainForm : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public mainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="本次实验要点："><a href="#本次实验要点：" class="headerlink" title="本次实验要点："></a>本次实验要点：</h4><p>   熟练使用<strong>MenuStrip,ToolStrip，StatusStrip</strong>控件的基本功能；以及如何添加窗口需要的控件等；再者就是如何更改窗口的一些配置；如窗口图标，背景，颜色，大小；还有菜单栏子目录的添加等操作；</p>
+<hr>
+<h3 id="第二部分：数据库的操作"><a href="#第二部分：数据库的操作" class="headerlink" title="第二部分：数据库的操作"></a>第二部分：数据库的操作</h3><h4 id="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会"><a href="#目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会" class="headerlink" title="目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;"></a>目的：熟练用SQL语言创建数据库；熟练数据表的创建；熟练数据的各种查询语句，以至于增删改查基本语句都会;</h4><hr>
+<p><strong>本次实验出现过好几个问题，下面附带自己的解决方法：</strong></p>
+<h4 id="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"><a href="#第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误" class="headerlink" title="第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误"></a>第一个：在与SQLServer建立连接时出现与网络相关的或特定于实例的错误</h4><p><img src="/images/4.png" alt="问题图片"></p>
+<h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p><a href="https://www.cnblogs.com/bingdaocaihong/p/10694429.html" target="_blank" rel="noopener">解决方法请点击</a></p>
+<blockquote>
+<p>打开SQL server配置管理器也可以这样<br>（cmd命令行输入SQLServerManager11.msc）<br>cmd命令行打开方式：win+R键  </p>
+</blockquote>
+<p><strong>注明：</strong><br>有些人可能这个不知道如何打开<br><img src="/images/5.png" alt="问题图片"><br><strong>解决方法：</strong>请右键点击三角号后，你可能看不到如何选择，这时候你用键盘方向键“下键”去选择后，敲击“Enter”即可；</p>
+<hr>
+<h4 id="第二个：SQL和VS-2017连接数据库服务器不显示问题"><a href="#第二个：SQL和VS-2017连接数据库服务器不显示问题" class="headerlink" title="第二个：SQL和VS 2017连接数据库服务器不显示问题"></a>第二个：SQL和VS 2017连接数据库服务器不显示问题</h4><p>问题图片：<br><img src="/images/6.png" alt="问题图片"><br><strong>解决方法 1：</strong>手动在这里填入：这个字符串(localdb)\v11.0<br><strong>解决方法 2：</strong>手动在这里输入： 你的SQL 服务器名称<br><img src="/images/7.png" alt="问题图片"></p>
+<hr>
+<h3 id="第三个：SQL的登录数据库的密码一定要记得！"><a href="#第三个：SQL的登录数据库的密码一定要记得！" class="headerlink" title="第三个：SQL的登录数据库的密码一定要记得！"></a>第三个：SQL的登录数据库的密码一定要记得！</h3><p>初始账号：sa<br>初始密码：别设置太难的；（痛苦经历）</p>
+<hr>
+<h2 id="本次实验主要SQL-2012建表代码如下"><a href="#本次实验主要SQL-2012建表代码如下" class="headerlink" title="本次实验主要SQL 2012建表代码如下"></a>本次实验主要SQL 2012建表代码如下</h2><p><strong>新建的一个stuser表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> stuser(</span><br><span class="line"> <span class="keyword">name</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> <span class="keyword">password</span> <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> stuser(<span class="keyword">name</span>,<span class="keyword">password</span>)<span class="keyword">values</span>(<span class="string">'ltx'</span>,<span class="string">'123456'</span>)</span><br></pre></td></tr></table></figure>
+
+<p><strong>新建的一个student表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> student(</span><br><span class="line"> sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>  <span class="keyword">identity</span>(<span class="number">1</span>,<span class="number">1</span>) primary <span class="keyword">key</span>,</span><br><span class="line"> sname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> sex <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> birthday datetime <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> dept <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> major <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"> hobby <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="string">'小白'</span>,<span class="string">'男'</span>,<span class="string">'1999-01-20'</span>,<span class="string">'国际学院'</span>,<span class="string">'网络工程'</span>,<span class="string">'听歌，读书'</span>)</span><br><span class="line"><span class="keyword">set</span> IDENTITY_INSERT student <span class="keyword">on</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> student(sno,sname,sex,birthday,dept,major,hobby)<span class="keyword">values</span>(<span class="number">2</span>,<span class="string">'天少'</span>,<span class="string">'男'</span>,<span class="string">'1999-11-20'</span>,<span class="string">'外国语学院'</span>,<span class="string">'信息管理'</span>,<span class="string">'爬山，看电影'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> student</span><br></pre></td></tr></table></figure>
+
+<p><strong>新建的一个course表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> stuManage</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> course(</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span> primary <span class="keyword">key</span>,</span><br><span class="line">cname <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cclass <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">reqcourse <span class="built_in">varchar</span>(<span class="number">2</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">credit <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">precredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">expcredit <span class="built_in">varchar</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1001'</span>,<span class="string">'C++'</span>,<span class="string">'专业必修'</span>,<span class="string">'是'</span>,<span class="string">'4'</span>,<span class="string">'3'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> course (cid,cname ,cclass ,reqcourse ,credit ,precredit ,expcredit)<span class="keyword">values</span>(<span class="string">'1002'</span>,<span class="string">'网络编程'</span>,<span class="string">'专业选修'</span>,<span class="string">'是'</span>,<span class="string">'3'</span>,<span class="string">'2'</span>,<span class="string">'1'</span>)</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> score</span><br></pre></td></tr></table></figure>
+
+<p><strong>新建的一个score表格代码：</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> score(</span><br><span class="line">sno <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">cid <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">score <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line"><span class="keyword">constraint</span>[PK_score] primary <span class="keyword">key</span>([sno],[cid])</span><br><span class="line">)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">1</span>,<span class="number">1001</span>,<span class="number">87</span>)</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> score(sno,cid,score)<span class="keyword">values</span>(<span class="number">2</span>,<span class="number">1001</span>,<span class="number">97</span>)</span><br></pre></td></tr></table></figure>
+
+<h4 id="结果图片："><a href="#结果图片：" class="headerlink" title="结果图片："></a>结果图片：</h4><blockquote>
+<p><img src="/images/8.png" alt="结果图片"><br><img src="/images/9.png" alt="结果图片">   </p>
+</blockquote>
+<hr>
+<h4 id="本次实验要点"><a href="#本次实验要点" class="headerlink" title="本次实验要点"></a>本次实验要点</h4><p>   本次实验主要是为了熟练用SQL语言创建数据库的方法，还有就是4个数据表的创建以及熟练数据的各种查询语句，说说这次试验学到的东西以及心得体会；一开始数据库的登录就出错了，我还去“数据库配置管理器”鼓捣了很久，才解决问题，跟着老师的思路去做实验，很清晰，比较快的学完了，后面数据库连接又有了问题;和“VS 2017”连接时，它显示我的服务器一直搜索不到，去网上找了很多方法，比如手动输入：“输入(localdb)\v11.0”也没用；后面才解决问题；后面就没有出现错误了，自己也重新的操作了一些SQL语言的增删改查，觉得很多小细节需要主要，比如你定义是int整型，你输入就不能用float类型的；你很容易忽略从而出错；认真，细心！</p>
+<hr>
+<h3 id="第三部分：数据库操作"><a href="#第三部分：数据库操作" class="headerlink" title="第三部分：数据库操作"></a>第三部分：数据库操作</h3><h4 id="目的：连接数据库，实现菜单的用户登录功能"><a href="#目的：连接数据库，实现菜单的用户登录功能" class="headerlink" title="目的：连接数据库，实现菜单的用户登录功能"></a>目的：连接数据库，实现菜单的用户登录功能</h4><p> <strong>要求图片:</strong><br> <img src="/images/10.png" alt="结果图片"> </p>
+<hr>
+<p><strong>主窗口初始图片：</strong><br><img src="/images/12.png" alt="初始界面"><br><strong>主窗口运行界面</strong><br><img src="/images/13.png" alt="运行界面"></p>
+<hr>
+<p><strong>登录界面初始图片：</strong><br><img src="/images/14.png" alt="初始界面"><br><strong>登录界面运行界面</strong><br><img src="/images/15.png" alt="运行界面"></p>
+<hr>
+<h2 id="完成登录操作后自己添加的用户注册界面"><a href="#完成登录操作后自己添加的用户注册界面" class="headerlink" title="完成登录操作后自己添加的用户注册界面"></a>完成登录操作后自己添加的用户注册界面</h2><p><strong>注册界面初始图片：</strong><br><img src="/images/14.png" alt="初始界面"><br><strong>注册界面运行界面</strong><br><img src="/images/16.png" alt="运行界面"></p>
+<hr>
+<h4 id="窗口源代码如下"><a href="#窗口源代码如下" class="headerlink" title="窗口源代码如下"></a>窗口源代码如下</h4><h5 id="第一部分的主窗口代码；"><a href="#第一部分的主窗口代码；" class="headerlink" title="第一部分的主窗口代码；"></a>第一部分的主窗口代码；</h5><p><strong>代码作用：用于功能选择以及提示登录信息，以及跳转到登录Login界面等操作；</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line">namespace stuManage</span><br><span class="line">&#123; public partial class MainForm : Form</span><br><span class="line">    &#123;  public static bool enable &#x3D; false;</span><br><span class="line">        public MainForm()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();     </span><br><span class="line">        &#125;</span><br><span class="line">        bool isLogined &#x3D; false;</span><br><span class="line">        private void mainForm_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        private void sysLogin_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            MainForm.enable &#x3D; false;</span><br><span class="line">            Login Lfrm &#x3D; new Login();</span><br><span class="line">            tssMsg.Text &#x3D; Lfrm.Text;</span><br><span class="line"></span><br><span class="line">            if(Lfrm.ShowDialog()&#x3D;&#x3D;DialogResult.OK)</span><br><span class="line">            if ((bool)Lfrm.Tag)</span><br><span class="line">            &#123;</span><br><span class="line">                isLogined &#x3D; true;</span><br><span class="line">                tssMsg.Text &#x3D; &quot;恭喜您已经成功登录！&quot;;</span><br><span class="line">            &#125;</span><br><span class="line">            else</span><br><span class="line">            &#123;</span><br><span class="line">                isLogined &#x3D; false;</span><br><span class="line">                tssMsg.Text &#x3D; &quot;注意，您必须先登录才能使用该系统！&quot;;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        private void sysExit_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            this.Close();</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void sysAdd_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            MainForm.enable &#x3D; true;</span><br><span class="line">            Login form &#x3D; new Login();</span><br><span class="line">            form.Show(); </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="第二部分的主窗口代码；"><a href="#第二部分的主窗口代码；" class="headerlink" title="第二部分的主窗口代码；"></a>第二部分的主窗口代码；</h5><p>代码作用：用于登录界面，以及自己添加的<strong>用户注册账户</strong>的功能；</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line">using System.Data.SqlClient;</span><br><span class="line">namespace stuManage</span><br><span class="line">&#123;  public partial class Login : Form</span><br><span class="line">    &#123; public static SqlConnection connection;</span><br><span class="line">        public Login()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">            button3.Enabled &#x3D; false;</span><br><span class="line">            string constr &#x3D; &quot;Server&#x3D;127.0.0.1;database&#x3D;stuManage;uid&#x3D;sa;pwd&#x3D;198022&quot;;</span><br><span class="line">            connection &#x3D; new SqlConnection(constr);</span><br><span class="line">            if (MainForm.enable &#x3D;&#x3D; true)</span><br><span class="line">                button3.Enabled &#x3D; true;</span><br><span class="line">        &#125;</span><br><span class="line">        private void label3_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        public static bool LoginSQL(string sql)</span><br><span class="line">        &#123;</span><br><span class="line">            object a;</span><br><span class="line">            SqlCommand command &#x3D; new SqlCommand(sql, connection);  &#x2F;&#x2F;指定要执行的SQL语句</span><br><span class="line">            if (connection.State &#x3D;&#x3D; ConnectionState.Closed)        &#x2F;&#x2F;如果当前数据库处于关闭状态</span><br><span class="line">                connection.Open();                                 &#x2F;&#x2F;打开数据库连接</span><br><span class="line">            a &#x3D; command.ExecuteScalar();    &#x2F;&#x2F;执行查询</span><br><span class="line">            connection.Close();                                    &#x2F;&#x2F;关闭数据库连接</span><br><span class="line">            if (a &#x3D;&#x3D; null)</span><br><span class="line">                return false;</span><br><span class="line">            else</span><br><span class="line">                return true;</span><br><span class="line">   &#125;</span><br><span class="line">        private void Login_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            string userName &#x3D; txtName.Text;</span><br><span class="line">            string userPwd &#x3D; txtPwd.Text;</span><br><span class="line">            string sql &#x3D; string.Format(&quot;Select name From stuser Where name&#x3D;&#39;&#123;0&#125;&#39; And password&#x3D;&#39;&#123;1&#125;&#39;&quot;, userName ,userPwd);</span><br><span class="line">            bool a&#x3D; LoginSQL(sql);</span><br><span class="line">            if (a &#x3D;&#x3D; true)</span><br><span class="line">            &#123;</span><br><span class="line">                MessageBox.Show(&quot;登录成功&quot;);</span><br><span class="line">                this.DialogResult &#x3D; DialogResult.OK;</span><br><span class="line">                this.Tag &#x3D; true;</span><br><span class="line">                this.Close();</span><br><span class="line">            &#125;</span><br><span class="line">            else</span><br><span class="line">            &#123; MessageBox.Show(&quot;登录失败&quot;);</span><br><span class="line">                this.Tag &#x3D; false;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        private void button2_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            this.Close();</span><br><span class="line">            button3.Enabled &#x3D; false;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void button3_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            string sql &#x3D; string.Format(&quot;Insert into stuser Values(&#39;&#123;0&#125;&#39;,&#39;&#123;1&#125;&#39;)&quot;, txtName.Text, txtPwd.Text);</span><br><span class="line">            SqlCommand command &#x3D; new SqlCommand(sql, connection);</span><br><span class="line">            if (connection.State &#x3D;&#x3D; ConnectionState.Closed)              &#x2F;&#x2F;如果当前数据库处于关闭状态</span><br><span class="line">                connection.Open();                                       &#x2F;&#x2F;打开数据库连接</span><br><span class="line">            int result &#x3D; command.ExecuteNonQuery();                      &#x2F;&#x2F;执行SQL语句</span><br><span class="line">            connection.Close();                                          &#x2F;&#x2F;关闭数据库连接</span><br><span class="line">           if(result&#x3D;&#x3D;1)</span><br><span class="line">            &#123;</span><br><span class="line">                MessageBox.Show(&quot;注册成功&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">           else</span><br><span class="line">                MessageBox.Show(&quot;注册失败&quot;);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void label2_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="本次实验心得"><a href="#本次实验心得" class="headerlink" title="本次实验心得"></a>本次实验心得</h5><p>&emsp;本次实验主要是进行连接数据库，以及实现菜单的用户登录功能，其次在这个的基础上，我自己添加了一个，用户注册的功能操作；今天本来用老师的代码，通俗易懂，一切一开始还没出错，结果运行显示连接不了数据库，自然也登录不了系统；后面用自己的笨方法也是做出来了；最大的感受就是，你需要不断的调试代码；去找出程序中哪里不足，不断改进，要有耐心，有问题多百度去寻求解决方法；不要一直看着错误bug却不动；还有就是连接数据库中有很多小操作，不能疏忽它的重要性；通过这次实验，感觉自己又精进了一点C#和数据库的知识；自己动手，确实受益匪浅；</p>
+<hr>
+<h3 id="第四部分：应用程序访问数据库"><a href="#第四部分：应用程序访问数据库" class="headerlink" title="第四部分：应用程序访问数据库"></a>第四部分：应用程序访问数据库</h3><h4 id="目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；"><a href="#目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；" class="headerlink" title="目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；"></a>目的：掌握应用程序连接数据库的方法；熟练菜单中添加学生信息的两个功能：数据连接和添加方法；</h4><p> <strong>要求图片:</strong><br> <img src="/images/17.png" alt="结果图片"> </p>
+<hr>
+]]></content>
+      <categories>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>C#学生管理系统开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SQL数据库</title>
+    <url>/2020/05/21/SQL%202012%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<hr>
+<h1 id="SQL基本语法"><a href="#SQL基本语法" class="headerlink" title="SQL基本语法"></a><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>基本语法</h1><hr>
+<h3 id="简答的一些增删改查语句"><a href="#简答的一些增删改查语句" class="headerlink" title="简答的一些增删改查语句"></a>简答的一些增删改查语句</h3><h5 id="1：插入语句"><a href="#1：插入语句" class="headerlink" title="1：插入语句"></a>1：插入语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> [<span class="keyword">table</span>] ([<span class="keyword">column</span>],[<span class="keyword">column</span>],[<span class="keyword">column</span>])<span class="keyword">values</span>(<span class="string">'?'</span>,<span class="string">'?'</span>,<span class="string">'?'</span>)</span><br></pre></td></tr></table></figure>
+<h5 id="2：删除语句"><a href="#2：删除语句" class="headerlink" title="2：删除语句"></a>2：删除语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> </span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="3：修改语句"><a href="#3：修改语句" class="headerlink" title="3：修改语句"></a>3：修改语句</h5><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">set</span> <span class="keyword">column</span> = ?</span><br><span class="line"><span class="keyword">where</span> <span class="keyword">column</span> = ?</span><br></pre></td></tr></table></figure>
+<h5 id="4：查询语句"><a href="#4：查询语句" class="headerlink" title="4：查询语句"></a>4：查询语句</h5><h6 id="查询单条记录的所有字段"><a href="#查询单条记录的所有字段" class="headerlink" title="查询单条记录的所有字段"></a>查询单条记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<h6 id="查询所有记录的所有字段"><a href="#查询所有记录的所有字段" class="headerlink" title="查询所有记录的所有字段"></a>查询所有记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> [<span class="keyword">column</span>] <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong><br><em>order by column asc代表：以column字段，升序排列。desc为降序</em></p>
+<h6 id="查询给定偏移量的记录的所有字段"><a href="#查询给定偏移量的记录的所有字段" class="headerlink" title="查询给定偏移量的记录的所有字段"></a>查询给定偏移量的记录的所有字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> *</span><br><span class="line"><span class="keyword">from</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">limit</span> [<span class="keyword">offset</span>], [<span class="keyword">limit</span>]</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong></p>
+<blockquote>
+<p>1.offset指定从哪个索引开始，默认从0开始<br>2.limit指定查询几条记录</p>
+</blockquote>
+<h6 id="查询指定记录的指定字段"><a href="#查询指定记录的指定字段" class="headerlink" title="查询指定记录的指定字段"></a>查询指定记录的指定字段</h6><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> [<span class="keyword">column</span>], [<span class="keyword">column</span>]</span><br><span class="line"><span class="keyword">form</span> [<span class="keyword">table</span>]</span><br><span class="line"><span class="keyword">where</span> [<span class="keyword">column</span>] = ?</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="以下为SQL的教程"><a href="#以下为SQL的教程" class="headerlink" title="以下为SQL的教程"></a>以下为SQL的教程</h3><p><a href="https://www.w3school.com.cn/sql/index.asp" target="_blank" rel="noopener">SQL</a>；</p>
+<blockquote>
+<p>冲冲冲!</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL数据库杂货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法学习</title>
+    <url>/2020/05/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<hr>
+<h1 id="Markdown（Markdown语法学习"><a href="#Markdown（Markdown语法学习" class="headerlink" title="Markdown（Markdown语法学习"></a>Markdown（Markdown语法学习</h1><p>（<a href="https://www.appinn.com/markdown/）快速入门（typora）" target="_blank" rel="noopener">https://www.appinn.com/markdown/）快速入门（typora）</a></p>
+<hr>
+<h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><p>//代码块语法</p>
+<h3 id="1-java代码"><a href="#1-java代码" class="headerlink" title="1.java代码:"></a>1.java代码:</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">system.out.println()</span><br></pre></td></tr></table></figure>
+<h3 id="2-shell代码"><a href="#2-shell代码" class="headerlink" title="2.shell代码:"></a>2.shell代码:</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">//linux下spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash">java -jar blog start</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="2-标题"><a href="#2-标题" class="headerlink" title="2.标题:"></a>2.标题:</h2><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h2 id="3-字体："><a href="#3-字体：" class="headerlink" title="3.字体："></a>3.字体：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**小白驹**</span><br><span class="line">==我是小白驹！==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">    ~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">    *斜体内容*</span><br></pre></td></tr></table></figure>
+
+<p>//加粗<br><strong>小白驹</strong><br>==我是小白驹！==<br>//删除线<br>    <del>被删除的文字</del><br>//斜体<br>    <em>斜体内容</em></p>
+<hr>
+<h2 id="4-引用："><a href="#4-引用：" class="headerlink" title="4.引用："></a>4.引用：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：小白驹</span><br><span class="line">&gt;&gt;作者：小白驹</span><br><span class="line">&gt;&gt;&gt;作者：小白驹</span><br></pre></td></tr></table></figure>
+
+<p>//引用语法</p>
+<blockquote>
+<p>作者：小白驹</p>
+<blockquote>
+<p>作者：小白驹</p>
+<blockquote>
+<p>作者：小白驹</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="5-分割线："><a href="#5-分割线：" class="headerlink" title="5.分割线："></a>5.分割线：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">分割线<span class="number">1</span></span><br><span class="line">***</span><br><span class="line">分割线<span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>分割线1</p>
+<hr>
+<p>分割线2</p>
+<hr>
+<h2 id="6-图片插入："><a href="#6-图片插入：" class="headerlink" title="6.图片插入："></a>6.图片插入：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//在线图片</span></span><br><span class="line">![Markdown](图片路径)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1850985055,1774495285&fm=26&gp=0.jpg" alt="小白驹" title="小白驹"></p>
+<hr>
+<h2 id="7-超链接："><a href="#7-超链接：" class="headerlink" title="7.超链接："></a>7.超链接：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[链接名字](链接)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://weibo.com/5715191309/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">我的微博</a></p>
+<hr>
+<h2 id="8-列表："><a href="#8-列表：" class="headerlink" title="8.列表："></a>8.列表：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">- 目录<span class="number">4</span></span><br><span class="line"><span class="comment">// 1+.+名称</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>无序列表</li>
+</ul>
+<ol>
+<li><p>首页 </p>
+</li>
+<li><p>分类</p>
+</li>
+<li><p>标签</p>
+</li>
+</ol>
+<hr>
+<h2 id="9-表格："><a href="#9-表格：" class="headerlink" title="9.表格："></a>9.表格：</h2><table>
+<thead>
+<tr>
+<th align="center">成绩</th>
+<th>语文</th>
+<th>数学</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="GitHub-Hexo-搭建个人博客详细教程"><a href="#GitHub-Hexo-搭建个人博客详细教程" class="headerlink" title="GitHub+Hexo 搭建个人博客详细教程"></a>GitHub+Hexo 搭建个人博客详细教程</h3><p><a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&utm_medium=social&utm_oi=1082549714699968512" target="_blank" rel="noopener">大牛链接</a>：(<a href="https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1082549714699968512</a>);</p>
+<h3 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h3><p><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">学习链接</a>：(<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a>);</p>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Zack的第一个博客!</title>
     <url>/2020/05/12/Zack%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<hr>
@@ -400,39 +433,6 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小技巧</title>
-    <url>/2020/05/24/life/</url>
-    <content><![CDATA[<hr>
-<h1 id="Life"><a href="#Life" class="headerlink" title="Life"></a>Life</h1><hr>
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>生活小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电脑小技巧</title>
-    <url>/2020/05/23/skill/</url>
-    <content><![CDATA[<hr>
-<h2 id="CMD命令行常用命令"><a href="#CMD命令行常用命令" class="headerlink" title="CMD命令行常用命令"></a>CMD命令行常用命令</h2><hr>
-<h4 id="打开CMD命令界面："><a href="#打开CMD命令界面：" class="headerlink" title="打开CMD命令界面："></a><strong>打开CMD命令界面：</strong></h4><blockquote>
-<p>1:开始－&gt;运行－&gt;键入cmd或command(在命令行里可以看到系统版本、文件系统版本)<br>2:win+R键；输入cmd即可；</p>
-</blockquote>
-<h5 id="CMD命令如下："><a href="#CMD命令如下：" class="headerlink" title="CMD命令如下："></a>CMD命令如下：</h5><blockquote>
-<p>1、 gpedit.msc—–组策略。<br>2.、sndrec32——-录音机。<br>3、Nslookup——-IP地址侦测器 ，是一个 监测网络中 DNS 服务器是否能正确实现域名解析的命令行工具。 它在 Windows NT/2000/XP 中均可使用 , 但在 Windows 98 中却没有集成这一个工具。　<br>4、explorer——-打开资源管理器。<br>5、logoff———注销命令。<br>6、shutdown——-60秒倒计时关机命令。<br>7、lusrmgr.msc—-本机用户和组。<br>8、services.msc—本地服务设置。<br>9、oobe/msoobe /a—-检查XP是否激活。<br>10、 notepad——–打开记事本。<br>11、cleanmgr——-垃圾整理。<br>12、net start messenger—-开始信使服务。<br>13、 compmgmt.msc—计算机管理。<br>14、net stop messenger—–停止信使服务。<br>15、conf———–启动netmeeting。<br>16、dvdplay——–DVD播放器。<br>17、charmap——–启动字符映射表。<br>18、 diskmgmt.msc—磁盘管理实用程序。<br>19、calc———–启动计算器。<br>20、 dfrg.msc——-磁盘碎片整理程序。<br>21、chkdsk.exe—–Chkdsk磁盘检查。<br>22、devmgmt.msc— 设备管理器。<br>23、regsvr32 /u *.dll—-停止dll文件运行。<br>24、 drwtsn32—— 系统医生。<br>25.、rononce -p—-15秒关机。<br>26、dxdiag———检查DirectX信息。<br>27、 regedt32——-注册表编辑器。<br>28、 Msconfig.exe—系统配置实用程序。<br>29、 rsop.msc——-组策略结果集。<br>30、mem.exe——–显示内存使用情况。<br>31、regedit.exe—-注册表。<br>32、winchat——–XP自带局域网聊天。<br>33、progman——–程序管理器。<br>34、winmsd———系统信息。<br>35、perfmon.msc—-计算机性能监测程序。<br>36、 winver———检查Windows版本。<br>37、sfc /scannow—–扫描错误并复原。<br>38、taskmgr—–任务管理器（2000/xp/2003）。<br>39、wmimgmt.msc—-打开windows管理体系结构(WMI)。<br>40、wupdmgr——–windows更新程序。<br>41、wscript——–windows脚本宿主设置。<br>42、write———-写字板。<br>43、 wiaacmgr——-扫描仪和照相机向导。<br>44、 winchat——–XP自带局域网聊天。<br>45、 mspaint——–画图板。<br>46、 mstsc———-远程桌面连接。<br>47、magnify——–放大镜实用程序.<br>48.、mmc————打开控制台。<br>49、mobsync——–同步命令。<br>50、iexpress——-木马捆绑工具，系统自带。<br>51、fsmgmt.msc—–共享文件夹管理器。<br>52、utilman——–辅助工具管理器。<br>53、 dcomcnfg——-打开系统组件服务。<br>54、 ddeshare——-打开DDE共享设置。<br>55、 osk————打开屏幕键盘。<br>56、 ntbackup——-系统备份和还原。<br>57、 ntmsmgr、msc—-移动存储管理器。<br>58、 ntmsoprq、msc—移动存储管理员操作请求。<br>59、 netstat -an—-(TC)命令检查接口。<br>60、 syncapp——–创建一个公文包。<br>61、 sysedit——–系统配置编辑器。<br>62、 sigverif——-文件签名验证程序。<br>63、 ciadv、msc——索引服务程序。<br>64、 shrpubw——–创建共享文件夹。<br>65、 secpol、msc—–本地安全策略。<br>66、 syskey———系统加密，一旦加密就不能解开，保护windows xp系统的双重密码。<br>67、 services、msc—本地服务设置。<br>68、 Sndvol32——-音量控制程序。<br>69、 sfc、exe——–系统文件检查器。<br>70、 sfc /scannow—windows文件保护。<br>71、 ciadv、msc——索引服务程序。<br>72、 tourstart——xp简介（安装完成后出现的漫游xp程序）。<br>73、 taskmgr——–任务管理器。<br>74、 eventvwr——-事件查看器。<br>75、 eudcedit——-造字程序。<br>76、 compmgmt、msc—计算机管理。<br>77、 packager——-对象包装程序。<br>78、 perfmon、msc—-计算机性能监测程序。<br>79、 charmap——–启动字符映射表。<br>80、 cliconfg——-SQL SERVER 客户端网络实用程序。<br>81、 Clipbrd——–剪贴板查看器。<br>82、 conf———–启动netmeeting。<br>83、 certmgr、msc—-证书管理实用程序。<br>84、 regsvr32 /u *、dll—-停止dll文件运行。<br>85、 regsvr32 /u zipfldr、dll——取消ZIP支持。<br>86、 cmd、exe——–CMD命令提示符。</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>CMD</category>
-      </categories>
-      <tags>
-        <tag>CMD命令行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/404.html</url>
     <content><![CDATA[<!DOCTYPE HTML>
@@ -448,6 +448,11 @@
 <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://LvTianXi.github.io" homePageName="回到我的主页"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>]]></content>
+  </entry>
+  <entry>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>个人信息</title>
@@ -472,9 +477,10 @@
 ]]></content>
   </entry>
   <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
   </entry>
   <entry>
     <title>个人爱好</title>
@@ -485,19 +491,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
+    <title>分类</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
