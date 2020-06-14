@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-06-09T12:04:38.623Z</updated>
+  <updated>2020-06-14T14:41:22.747Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>javawork</title>
+    <link href="https://lvtianxi.github.io/2020/06/14/javawork/"/>
+    <id>https://lvtianxi.github.io/2020/06/14/javawork/</id>
+    <published>2020-06-14T14:29:34.000Z</published>
+    <updated>2020-06-14T14:41:22.747Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Java基本语法&quot;&gt;&lt;a href=&quot;#Java基本语法&quot; class=&quot;headerlink&quot; title=&quot;Java基本语法&quot;&gt;&lt;/a&gt;Java基本语法&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;Java数组小作业系统&quot;&gt;&lt;a href=&quot;#Java数组小作业系统&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="https://LvTianXi.github.io/categories/Java/"/>
+    
+    
+      <category term="Java课后作业" scheme="https://LvTianXi.github.io/tags/Java%E8%AF%BE%E5%90%8E%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>Python的课程设计</title>
