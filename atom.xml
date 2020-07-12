@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Zack&#39;s Blog</title>
   
-  <subtitle>每天进步一丢丢！</subtitle>
+  <subtitle>每天进步一丢丢</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://lvtianxi.github.io/</id>
   
   <author>
-    <name>小白驹</name>
+    <name>小白</name>
     
   </author>
   
