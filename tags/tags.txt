@@ -26,7 +26,7 @@ def search_tag(request,tag):
                      </p>
                 </div>
                 <a class="pure-button" href="{% url "detail" id=post.id %}">阅读更多>>></a>
-    
+
         </section>
     {% endfor%}
 </div>
