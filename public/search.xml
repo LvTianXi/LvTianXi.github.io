@@ -568,6 +568,27 @@
 </html>]]></content>
   </entry>
   <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <url>/home/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://lvtianxi.github.io/">home</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
     <title>个人信息</title>
     <url>/about/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
@@ -607,26 +628,5 @@
 <h2 id="个人爱好"><a href="#个人爱好" class="headerlink" title="个人爱好"></a>个人爱好</h2><p>性别男，爱好女，除外：<br><strong>书籍类型</strong>：悬疑，深厚文学：<br>《白鹿原》，《活着》，《白夜行》，《鬼谷子》，《墨菲定律》<br><strong>电影类型</strong>：悬疑，犯罪，个人认为的经典电影：<br>《肖生克的救赎》，《教父》三部曲，《当幸福来敲门》<br><strong>歌曲类型</strong>：轻音乐，涉猎广，随便安利一个：<br>《知否》，《Lemon》<br><strong>运动类型</strong>：涉猎广，比如：<br>羽毛球，自行车骑行（沿途看风景），慢跑<br><strong>电视剧类型</strong>：军旅片，惊险刺激：<br>《亮剑》，《Unnatural》，《盗墓笔记》<br><strong>动漫类型</strong>：热血，惊险刺激：<br>《火影忍者》，《海贼王》，《死神》，《东京喰种》<br><strong>游戏类型</strong>：热血，刺激：<br>《王者荣耀》，《别踩白块》<br><strong>最爱</strong>：<em>安静一个人待着，听轻音乐，看《东野圭吾》的书!乏了就拉上窗帘，关掉闹钟，睡觉！</em></p>
 <hr>
 ]]></content>
-  </entry>
-  <entry>
-    <title>home</title>
-    <url>/home/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://lvtianxi.github.io/">home</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title>archives</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
 </search>
