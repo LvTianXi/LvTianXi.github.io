@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lvtianxi.github.io/"/>
-  <updated>2020-07-15T01:26:14.635Z</updated>
+  <updated>2020-08-10T02:31:28.859Z</updated>
   <id>https://lvtianxi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Html+Js+Css简易轮播图</title>
+    <link href="https://lvtianxi.github.io/2020/08/10/js/"/>
+    <id>https://lvtianxi.github.io/2020/08/10/js/</id>
+    <published>2020-08-10T02:07:54.000Z</published>
+    <updated>2020-08-10T02:31:28.859Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="HTML+Css+Js" scheme="https://LvTianXi.github.io/categories/HTML-Css-Js/"/>
+    
+    
+      <category term="JS自学" scheme="https://LvTianXi.github.io/tags/JS%E8%87%AA%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>Javawork</title>
